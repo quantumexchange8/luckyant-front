@@ -33,7 +33,8 @@
                 <hr class="uk-margin-medium">
                 <h1 class="uk-margin-small-top uk-text-center">Contact Us</h1>
                 <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-justify uk-text-default">Thank you for choosing to get in touch with us. Please use the registration information form below to provide your details, or you can contact us via email at support@luckyantfxasia.com. This will help us better understand your needs and provide you with professional assistance. Your information will be kept confidential and used to handle your inquiries.</p>
-                <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="{{ route('contact.store') }}" method="post">
+                {{-- <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="{{ route('contact.store') }}" method="post"> --}}
+                <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="#" method="post">
                     @csrf
                 <div class="uk-width-1-1@s uk-inline">
                     <span class="uk-form-icon fas fa-user fa-sm"></span>
@@ -51,9 +52,10 @@
                     <span class="uk-form-icon fa fa-angle-down fa-sm"></span>
                     <select class="uk-input uk-border-rounded" name="country_id">
                         <option value="" disabled selected class="uk-text-muted">Select a Country</option>
-                        @foreach ($countries as $country)
+                        <option value="malaysia" class="uk-text-muted">Malaysia</option>
+                        {{-- @foreach ($countries as $country)
                             <option value="{{ $country->id }}">{{ $country->code }} - {{ $country->name }}</option>
-                        @endforeach
+                        @endforeach --}}
                     </select>
                 </div>
                 <div class="uk-width-1-2@s uk-inline">

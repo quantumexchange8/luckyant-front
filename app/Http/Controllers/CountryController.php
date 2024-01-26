@@ -9,8 +9,8 @@ class CountryController extends Controller
 {
     public function index()
     {
-        $countries = Country::all();
-        return view('layout.contactus',compact('countries'));
+        // $countries = Country::all();
+        return view('layout.contactus');
     }
     public function storeContact(Request $request)
     {
