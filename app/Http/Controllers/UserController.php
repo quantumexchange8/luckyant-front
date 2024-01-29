@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Mail;
 class UserController extends Controller
 {
     public function index()
@@ -43,5 +44,8 @@ class UserController extends Controller
     {
         return view('layout.404error');
     }
+  public function contact(){
+    return view('layout.contactus');
+  }
 }
 

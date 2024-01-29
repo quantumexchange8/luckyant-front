@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\CountryController;
+use App\Http\Controllers\ContactController;
+//use App\Http\Controllers\CountryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,8 +27,8 @@ Route::get('indices',[UserController::class, 'indices'])->name('indices');
 });
 Route::get('copytrading',[UserController::class, 'copytrading'])->name('copytrading');
 Route::get('about',[UserController::class, 'about'])->name('about');
-
-Route::get('contact',[CountryController::class, 'index'])->name('contact');
-
 Route::get('error',[UserController::class, 'error'])->name('error');
-Route::post('contact', [CountryController::class, 'storeContact'])->name('contact.store');
+//Route::post('contact', [CountryController::class, 'storeContact'])->name('contact.store');
+Route::get('contact', [UserController::class, 'contact'])->name('contact');
+Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
+

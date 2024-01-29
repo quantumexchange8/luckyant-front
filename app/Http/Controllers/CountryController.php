@@ -12,7 +12,7 @@ class CountryController extends Controller
         // $countries = Country::all();
         return view('layout.contactus');
     }
-    public function storeContact(Request $request)
+  /*  public function storeContact(Request $request)
     {
         $request->validate([
             'name' => 'required|string',
@@ -33,5 +33,5 @@ class CountryController extends Controller
             // If an exception occurs (e.g., database error), show an error message
             return redirect()->route('contact')->with('error', 'Error submitting the contact form. Please try again.');
         }
-    }
+    } */
 }
