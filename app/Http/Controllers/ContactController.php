@@ -12,6 +12,7 @@ class ContactController extends Controller
     {
         // Validate and process form data
 
+    
         $data = [
             'name' => $request->input('name'),
             'email' => $request->input('email'),
@@ -21,8 +22,12 @@ class ContactController extends Controller
             'message' => $request->input('message'),
         ];
   
-        Mail::to('hivehanis@gmail.com')->send(new \App\Mail\ContactFormMail($data));
+        Mail::send(new ContactFormMail($data));
+
+     //   Mail::send(new \App\Mail\ContactFormMail($data));
         return redirect()->back()->with('success', 'Message sent successfully!');
+      //  Mail::to('haniszhr19@gmail.com')->send(new \App\Mail\ContactFormMail($data));
+       // return redirect()->back()->with('success', 'Message sent successfully!');
     }
     
 

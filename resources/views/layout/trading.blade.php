@@ -12,6 +12,8 @@
         </div>
     </div>
 </div>
+
+<!----Description------------------>
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid" data-uk-grid>
@@ -66,8 +68,47 @@
         </div>
     </div>
 </div>
+<!----End of Description---------->
 
+<div class="uk-section uk-padding-large in-padding-large-vertical@s in-profit-13">
+    <div class="uk-container uk-margin-small-bottom">
+        <div class="uk-grid-divider" data-uk-grid>
+            <div class="uk-width-auto@m">
+                <h4 class="uk-margin-remove-bottom uk-margin-right">Metatrader Account </h4>
+                <p class="uk-text-muted uk-margin-remove-top">Metatrader 5 Trading Account</p>
+            </div>
+            <div class="uk-width-expand@m">
+                <div class="uk-grid-medium uk-child-width-1-1 uk-child-width-1-1@m uk-text-center in-client-logo-3" data-uk-grid>
+                    <p class="uk-margin-bottom-small">
+                    Lucky Ant in collaboration with MetaTrader 5, integrates an extensive range of tools with user-friendly 
+                    market search, tight spreads, and superior execution to deliver an exceptional trading experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-1-2@s uk-grid-large uk-child-width-1-3@m uk-text-center" data-uk-grid>
+           
+            <div>
+                <span class="in-icon-wrap circle large uk-margin-auto">1</span>
+                <h4 class="uk-heading-bullet uk-margin-top uk-margin-remove-bottom">Apply</h4>
+                <p>for a trading account</p>
+            </div>
+            <div>
+                <span class="in-icon-wrap circle large uk-margin-auto">2</span>
+                <h4 class="uk-heading-bullet uk-margin-top uk-margin-remove-bottom">Fund</h4>
+                <p>easily and securely</p>
+            </div>
+            <div>
+                <span class="in-icon-wrap circle large uk-margin-auto">3</span>
+                <h4 class="uk-heading-bullet uk-margin-top uk-margin-remove-bottom">Trade</h4>
+                <p>our full range of markets</p>
+            </div>
+          
+        </div>
+    </div>
+</div>
 
+<!----------Open an Account----------->
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid">
@@ -89,4 +130,5 @@
         </div>
     </div>
 </div>
+<!---------End of Open an Account----->
 @endsection

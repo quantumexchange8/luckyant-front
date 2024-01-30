@@ -24162,7 +24162,9 @@ footer .social-media-list div a .fab:hover {
   margin-top: 15px;
 }
 .in-profit-13 .in-icon-wrap {
-  color: #FD6A4F;
+  background-color: #C00000;
+  color:#FFFFFF;
+  font-size:32px;
 }
 .in-profit-13 .uk-width-5-6\@m p {
   top: 5px;

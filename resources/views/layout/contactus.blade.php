@@ -38,19 +38,19 @@
                     @csrf
                 <div class="uk-width-1-1@s uk-inline">
                     <span class="uk-form-icon fas fa-user fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="name" name="name" type="text" placeholder="Full name">
+                    <input class="uk-input uk-border-rounded" id="name" name="name" required type="text" placeholder="Full name">
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fas fa-envelope fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="email" name="email" type="email" placeholder="Email address">
+                    <input class="uk-input uk-border-rounded" id="email" name="email" required type="email" placeholder="Email address">
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fas fa-pen fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="phone" name="phone" type="text" placeholder="Phone Number">
+                    <input class="uk-input uk-border-rounded" id="phone" name="phone" required type="text" placeholder="Phone Number">
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fa fa-angle-down fa-sm"></span>
-                    <select class="uk-input uk-border-rounded" name="country">
+                    <select class="uk-input uk-border-rounded" required name="country">
                         <option value="" disabled selected class="uk-text-muted">Select a Country</option>
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Åland Islands">Åland Islands</option>
@@ -303,7 +303,7 @@
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fa fa-users fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="interest" name="interest" type="text" placeholder="Cooperation Plan of Interest">
+                    <input class="uk-input uk-border-rounded" id="interest" required name="interest" type="text" placeholder="Cooperation Plan of Interest">
                 </div>
                 <div class="uk-width-1-1">
                     <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="Additional Comments"></textarea>
