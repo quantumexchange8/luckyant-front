@@ -23,7 +23,7 @@
                 <div class="uk-grid uk-child-width-1-2@m uk-margin-medium-top uk-text-center" data-uk-grid="">
                     <div>
                         <h5 class="uk-margin-remove-bottom">Address</h5>
-                        <p class="uk-margin-small-top">Satrio Tower 16th, Jl. Dr Satrio Kuningan, Jakarta</p>
+                        <p class="uk-margin-small-top">1312 17TH ST UNIT NUM 2955</p>
                     </div>
                     <div>   
                         <h5 class="uk-margin-remove-bottom">Email</h5>

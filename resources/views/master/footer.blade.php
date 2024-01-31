@@ -11,7 +11,7 @@
                     <ul class="uk-list uk-link-text uk-margin-remove-top">
                         <li>
                             <div><i class="fa fa-registered uk-margin-small-right"></i>Registration Number : </div>
-                            <div> <a href="#"></a> </div>
+                            <div> <p>31000262677236</p> </div>
                         </li>
                         <li>
                             <div><i class="fas fa-envelope uk-margin-small-right"></i>Email : </div>
@@ -19,7 +19,7 @@
                         </li>
                         <li>
                             <div><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Address : </div>
-                            <div> <a href="mailto:support@luckyantfxasia.com"></a> </div>
+                            <div> <p>1312 17TH ST UNIT NUM 2955</p> </div>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +44,7 @@
                     <h4 class="uk-heading-bullet">Trading</h4>
                     <ul class="uk-list uk-link-text">
                         <li><a href="{{route('trading')}}">Trading Platform</a></li>
-                        <li><a href="{{route('copytrading')}}">Copytrading</a></li>
+                        <li><a href="{{route('copytrading')}}">Copy Trading</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,13 +56,13 @@
                 <div class="uk-width-5-6@m uk-margin-bottom">
                     <div class="footer-warning in-margin-top-20@s">
                         <h5 class="uk-text-small uk-text-uppercase"><span>Risk Warning</span></h5>
-                        <p class="uk-text-small">Forex and Contracts for Difference (CFD) trading involve high risks to your invested capital. Please read and ensure you fully understand our leverage products. The company assumes no responsibility for any overall loss or damage to individuals or entities.
+                        <p class="uk-text-small">“All recommendations provided on this website or through associated communications are intended solely as general advice. These suggestions are based on the inherent investment or trading value of financial products and do not account for individualized investment objectives, financial conditions, or specific needs.
                         </p>
                         <p class="uk-text-small">
-                            No part of this website information may be copied without explicit written consent from Lucky Ant. 
+                            Prior to making any investment or trading decisions based on this advice, recipients are advised to meticulously assess its relevance to their unique financial circumstances. It is crucial to thoroughly review the product disclosure statements pertaining to relevant financial products, as provided by your investment broker.
                         </p>
                         <p class="uk-text-small">
-                            Lucky Ant strictly adheres to Payment Card Industry Data Security Standard (PCI DSS) to ensure customer safety and privacy. We conduct regular vulnerability scans and penetration tests in line with PCI DSS business model requirements to ensure a highly secure system.
+                            Please be aware that over-the-counter derivatives carry substantial risks and may not be suitable for every investor. Potential losses could surpass the initial investment amount. Acquiring derivative products confers no rights, privileges, or obligations to the underlying financial assets.”
                         </p>
                     </div>
                 </div>

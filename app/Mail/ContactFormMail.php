@@ -22,11 +22,11 @@ class ContactFormMail extends Mailable
     public function build()
     {
    
-        $recipient=['ea226a4eb0-006fc9@inbox.mailtrap.io '];
+        $recipient=['support@luckyantfxasia.com'];
 
        return $this
-       ->from($this->data['email'], $this->data['name'])
-     ->to($recipient) // Set the recipient's email address
+       ->from(request('email'), $this->data['name'])
+        ->to($recipient) // Set the recipient's email address
        ->subject('Contact Form Submission') // Email subject
        ->view('layout.sendmail')
        ->with(['data' => $this->data]); // Pass data to the email view

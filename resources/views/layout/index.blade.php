@@ -56,26 +56,29 @@
                     </div>
                 </li> 
                 <li>
-                    <div class="uk-container" >
+                    <div class="uk-container">
                         <div class="uk-grid" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-3-5@m">
                                 <div class="uk-overlay">
-                                    <h1>One-click copy trading, sharing success, freeing up your hands</h1>
-                                    <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify">Copy trading is officially launched, allowing you to automatically replicate the operations of excellent traders, injecting more possibilities into your investments. This convenient feature not only frees up your hands but also allows you to easily participate in the market, experiencing a more colorful trading journey.
-                                    </p>
+                                    <h1 class="uk-hidden@m uk-text-darkblue1">One-click copy trading, sharing success, freeing up your hands</h1>
+                                    <h1 class="uk-visible@m">One-click copy trading, sharing success, freeing up your hands</h1>
+                                    
+                                    <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-visible@m">Copy trading is officially launched, allowing you to automatically replicate the operations of excellent traders, injecting more possibilities into your investments. This convenient feature not only frees up your hands but also allows you to easily participate in the market, experiencing a more colorful trading journey.</p>
+                                    <p class="uk-text-darkblue1 uk-text-meta1 uk-visible uk-text-justify uk-hidden@m">Copy trading is officially launched, allowing you to automatically replicate the operations of excellent traders, injecting more possibilities into your investments. This convenient feature not only frees up your hands but also allows you to easily participate in the market, experiencing a more colorful trading journey.</p>
+                
                                     <div class="in-slideshow-button">
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open Real Account </a>
                                         <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">Open Demo Account</a>
                                     </div>
-                                
                                 </div>
                             </div>
                             <div class="uk-position-center">
-                                <img class="uk-animation-slide-top-small" src="{{asset('img/in-slideshow-image-6-01.png')}}" data-src="{{asset('img/in-slideshow-image-6-01.png')}}" alt="slideshow-image" width="862" height="600" data-uk-img>
+                                <img class="uk-animation-slide-top-small" src="{{asset('img/in-slideshow-image-6-01.png')}}" data-src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
                             </div>
                         </div>
                     </div>
                 </li>
+                
              
             </ul>
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
