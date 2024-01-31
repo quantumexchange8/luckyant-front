@@ -47,5 +47,8 @@ class UserController extends Controller
   public function contact(){
     return view('layout.contactus');
   }
+  public function terms(){
+    return view('layout.terms');
+  }
 }
 

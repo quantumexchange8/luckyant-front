@@ -22,7 +22,7 @@ class ContactFormMail extends Mailable
     public function build()
     {
    
-        $recipient=['support@luckyantfxasia.com'];
+        $recipient=['support@luckyantfxasia.com '];
 
        return $this
        ->from(request('email'), $this->data['name'])

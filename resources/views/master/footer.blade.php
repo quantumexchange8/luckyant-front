@@ -72,9 +72,9 @@
                
                 <div class="uk-width-1-2@m uk-flex uk-flex-right@m custom-small-screen">
                     
-                <p class="uk-text-small">
-                    Risk Disclosure | Anti-Money Laundering (Documentation to be ready and provided for plug-in)
-                </p>
+                <a class="uk-text-small" href="{{route('terms')}}">
+                    TERMS AND POLICIES 
+                </a>
                <!--
                     <div class="uk-flex social-media-list">
                     <div><a href="https://www.facebook.com/indonez" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>

@@ -28,6 +28,7 @@ Route::get('indices',[UserController::class, 'indices'])->name('indices');
 Route::get('copytrading',[UserController::class, 'copytrading'])->name('copytrading');
 Route::get('about',[UserController::class, 'about'])->name('about');
 Route::get('error',[UserController::class, 'error'])->name('error');
+Route::get('terms',[UserController::class, 'terms'])->name('terms');
 //Route::post('contact', [CountryController::class, 'storeContact'])->name('contact.store');
 Route::get('contact', [UserController::class, 'contact'])->name('contact');
 Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
