@@ -31,5 +31,8 @@ Route::get('error',[UserController::class, 'error'])->name('error');
 Route::get('terms',[UserController::class, 'terms'])->name('terms');
 //Route::post('contact', [CountryController::class, 'storeContact'])->name('contact.store');
 Route::get('contact', [UserController::class, 'contact'])->name('contact');
+Route::get('privacy', [UserController::class, 'privacy'])->name('privacy');
+Route::get('copytradepolicy', [UserController::class, 'copytradepolicy'])->name('copytradepolicy');
+Route::get('disclosure', [UserController::class, 'disclosure'])->name('disclosure');
 Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
-
+Route::get('customer', [UserController::class, 'customer'])->name('customer');

@@ -50,5 +50,17 @@ class UserController extends Controller
   public function terms(){
     return view('layout.terms');
   }
+  public function privacy(){
+    return view('layout.privacy');
+  }
+  public function copytradepolicy(){
+    return view('layout.copytradepolicy');
+  }
+  public function disclosure(){
+    return view('layout.disclosure');
+  }
+  public function customer(){
+    return view('layout.customer');
+  }
 }
 
