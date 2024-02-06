@@ -154,19 +154,7 @@
                     <!-- pagination end -->
                 </div>
                 <div class="uk-width-expand@m">
-               
-                   
-                    <aside class="uk-margin-medium-bottom">
-                        <div class="uk-card uk-card-default uk-card-body uk-border-rounded">        
-                            <h5 class="uk-heading-bullet uk-text-uppercase uk-margin-remove-bottom">Terms & Policy Categories</h5>
-                            <ul class="uk-list widget-categories">
-                                <li><a href="#">Customer Agreement</a></li>
-                                <li><a href="{{route('privacy')}}">Privacy Policy</a></li>
-                                <li><a href="#">Disclosures and Risk Warning</a></li>
-                                <li><a href="#">Copy Trading Terms and Conditions</a></li>
-                            </ul>
-                        </div>
-                    </aside>
+          
               
                     <aside class="uk-margin-medium-bottom">
                         <div class="uk-card uk-card-default uk-card-body uk-border-rounded">

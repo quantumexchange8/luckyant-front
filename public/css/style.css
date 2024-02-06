@@ -2973,7 +2973,7 @@ select.uk-form-width-xsmall {
 
 
 .uk-card-default .uk-card-title {
-  color: #3F3453;
+  color: #022859;
 }
 
 .uk-card-default.uk-card-hover:hover {
@@ -3715,7 +3715,7 @@ select.uk-form-width-xsmall {
   display: block;
   font-size: 1.25rem;
   line-height: 1.4;
-  color: #3F3453;
+  color: #022859;
 }
 
 /* Hover */
@@ -7985,7 +7985,7 @@ ul.uk-nav-sub {
   line-height: 1.5;
 }
 .uk-text-superlarge {
-  font-size: 4.0rem;
+  font-size: 3.8rem;
   line-height: 1.5;
 }
 .uk-text-slightlarge {
@@ -7993,7 +7993,7 @@ ul.uk-nav-sub {
   line-height: 1.5;
 }
 .uk-text-superlarge1 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   line-height: 1.5;
 }
 
@@ -8063,7 +8063,7 @@ ul.uk-nav-sub {
 }
 
 .uk-text-primary {
-  color: #FD6A4F !important;
+  color:#C00000 !important;
 }
 
 .uk-text-secondary {
@@ -12118,7 +12118,7 @@ iframe[data-uk-cover] {
   float: right;
 }
 .in-faq-5 .uk-open .uk-accordion-title {
-  color: #FD6A4F;
+  color:#C00000;
   border-bottom: 0;
 }
 .in-faq-5 .uk-open .uk-accordion-title::before {
@@ -24344,7 +24344,7 @@ footer .social-media-list div a .fab:hover {
   color:#B3D2EF;
 }
 @media only screen and (max-width: 767px) {
-  html p {
+  html p, .uk-text-default, .uk-text-meta {
       line-height: 1.2;
   }
 }

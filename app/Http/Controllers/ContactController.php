@@ -34,15 +34,15 @@ class ContactController extends Controller
         // Mail::send(new ContactFormMail($data));
 
         Mail::send('emails.contact', ['data' => $validatedData], function ($message) use ($validatedData) {
-            $message->to('your@email.com')->subject('New Form Submission');
+            $message->to('support@luckyantfxasia.com ')->subject('Lucky Ant Form Submission');
 
             $message->from($validatedData['email'], $validatedData['name']);
         });
 
      //   Mail::send(new \App\Mail\ContactFormMail($data));
         return redirect()->back()->with('success', 'Message sent successfully!');
-      //  Mail::to('haniszhr19@gmail.com')->send(new \App\Mail\ContactFormMail($data));
-       // return redirect()->back()->with('success', 'Message sent successfully!');
+      
+    
     }
     
 
