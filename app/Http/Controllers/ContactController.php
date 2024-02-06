@@ -13,16 +13,31 @@ class ContactController extends Controller
         // Validate and process form data
 
     
-        $data = [
-            'name' => $request->input('name'),
-            'email' => $request->input('email'),
-            'phone' => $request->input('phone'),
-            'country' => $request->input('country'),
-            'interest' => $request->input('interest'),
-            'message' => $request->input('message'),
-        ];
+        // $data = [
+        //     'name' => $request->input('name'),
+        //     'email' => $request->input('email'),
+        //     'phone' => $request->input('phone'),
+        //     'country' => $request->input('country'),
+        //     'interest' => $request->input('interest'),
+        //     'message' => $request->input('message'),
+        // ];
+
+        $validatedData = $request->validate([
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'phone' => 'required|numeric',
+            'country' => 'required|string',
+            'interest' => 'required|string',
+            'message' => 'required|string',
+        ]);
   
-        Mail::send(new ContactFormMail($data));
+        // Mail::send(new ContactFormMail($data));
+
+        Mail::send('emails.contact', ['data' => $validatedData], function ($message) use ($validatedData) {
+            $message->to('your@email.com')->subject('New Form Submission');
+
+            $message->from($validatedData['email'], $validatedData['name']);
+        });
 
      //   Mail::send(new \App\Mail\ContactFormMail($data));
         return redirect()->back()->with('success', 'Message sent successfully!');
