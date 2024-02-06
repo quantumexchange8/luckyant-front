@@ -36,3 +36,4 @@ Route::get('copytradepolicy', [UserController::class, 'copytradepolicy'])->name(
 Route::get('disclosure', [UserController::class, 'disclosure'])->name('disclosure');
 Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
 Route::get('customer', [UserController::class, 'customer'])->name('customer');
+
