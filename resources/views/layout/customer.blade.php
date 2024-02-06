@@ -678,14 +678,14 @@
                         <hr class="uk-margin-medium-top uk-margin-small-bottom">
                         <ul class="in-faq-5" data-uk-accordion="collapsible: false">
                             <li class="uk-open">
-                                <a class="uk-accordion-title uk-text-lead" href="#">Why does LUCKY ANT collect personal information ?</a>
+                                <a class="uk-accordion-title uk-text-default" href="#">Why does LUCKY ANT collect personal information ?</a>
                                 <div class="uk-accordion-content">
                                     <p class="uk-text-justify uk-text-meta">Our business is to meet our customers' needs for a range of financial services. To do
                                             this effectively, we need to collect certain personal information.</p>
                                 </div>
                             </li>
                             <li>
-                                <a class="uk-accordion-title uk-text-lead" href="#">What kind of personal information do we ask for ?</a>
+                                <a class="uk-accordion-title uk-text-default" href="#">What kind of personal information do we ask for ?</a>
                                 <div class="uk-accordion-content">
                                 
                                         <p class="uk-text-justify uk-text-meta">The type of personal information we may collect can include (but is not limited to)
@@ -702,7 +702,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a class="uk-accordion-title uk-text-lead" href="#">How do we store personal information ?</a>
+                                <a class="uk-accordion-title uk-text-default" href="#">How do we store personal information ?</a>
                                 <div class="uk-accordion-content">
                                     <p class="uk-text-justify uk-text-meta"> Safeguarding the privacy of your information is important to us, whether you interact
                                         with us personally, by phone, mail, over the internet or other electronic medium. We
