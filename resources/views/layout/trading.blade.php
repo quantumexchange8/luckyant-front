@@ -70,6 +70,7 @@
 </div>
 <!----End of Description---------->
 
+<!--------------Metatrader Account Steps--------->
 <div class="uk-section uk-padding-large in-padding-large-vertical@s in-profit-13">
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-grid-divider" data-uk-grid>
@@ -79,14 +80,14 @@
             </div>
             <div class="uk-width-expand@m">
                 <div class="uk-grid-medium uk-child-width-1-1 uk-child-width-1-1@m uk-text-center in-client-logo-3" data-uk-grid>
-                    <p class="uk-margin-bottom-small">
-                    Lucky Ant in collaboration with MetaTrader 5, integrates an extensive range of tools with user-friendly 
-                    market search, tight spreads, and superior execution to deliver an exceptional trading experience.
+                    <p class="uk-margin-top10 uk-text-justify">
+                        Lucky Ant in collaboration with MetaTrader 5, integrates an extensive range of tools with user-friendly 
+                        market search, tight spreads, and superior execution to deliver an exceptional trading experience.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="uk-child-width-1-2@s uk-grid-large uk-child-width-1-3@m uk-text-center" data-uk-grid>
+        <div class="uk-child-width-1-3@s uk-grid-large uk-child-width-1-3@m uk-text-center" data-uk-grid>
            
             <div>
                 <span class="in-icon-wrap circle large uk-margin-auto">1</span>
@@ -107,85 +108,77 @@
         </div>
     </div>
 </div>
+<!-------End of Metatrader Account--------------->
 
+<!---------------MT5 Trading Experience ---------------->
 <div class="uk-section">
     <div class="uk-container">
-        <div class="uk-grid uk-flex uk-flex-center">
-            <div class="uk-width-1-1 in-content-10">
-           
-                {{--
-                <div class="uk-card uk-card-body uk-border-rounded uk-background-bottom-left uk-background-cover"  style="background-image: url({{asset('img/blockit/bg-01.png')}});">                    
-                    <div class="uk-grid uk-flex uk-flex-center">
-                        <div class="uk-width-4-5@m uk-text-center">                            
-                            <h1 class="uk-margin-small-top">Lucky Ant Enhances Your MT5 Trading Experience</h1>
-                            <p class="uk-text-white">Engage with the latest advancements on MetaTrader, meticulously refined to preserve access to the distinctive benefits exclusive to Lucky Ant.</p>
-                        </div>
-                    </div>
+        <div class="uk-grid-match uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m in-card-10" data-uk-grid>
+          <div class="uk-width-1-1 uk-flex uk-flex-center uk-first-column">
+                <div class="uk-width-4-5@m uk-text-center">
+                    <h2>Lucky Ant Enhances Your MT5 Trading Experience</h2>
+                
+                    <p class="uk-text-default uk-text-muted uk-margin-remove">Engage with the latest advancements on MetaTrader, meticulously refined to preserve access to the distinctive benefits exclusive to Lucky Ant.</p>
+               
                 </div>
-                --}}
-                <div class="uk-grid uk-flex uk-flex-center">
-                    
-                <h2 class="uk-text-center">Lucky Ant Enhances Your MT5 Trading Experience</h2>
-                <div class="uk-width-3-5@m uk-text-center">
-                <p class="uk-text-center uk-margin-top10">Engage with the latest advancements on MetaTrader, meticulously refined to preserve access to the distinctive benefits exclusive to Lucky Ant.</p>
-                    </div>    
             </div>
-                <div class="uk-grid-divider uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top" data-uk-grid>
-                    <div>
-                        <h3 class="uk-heading-bullet"><a class="uk-link-text uk-text-decoration-none" href="#">500+ markets</a></h3>
-                        <div class="uk-grid uk-grid-small" data-uk-grid>                        
-                            <div class="uk-width-expand@m">
-                                <p class="uk-text-justify">Discover a diverse range of 500+ markets, encompassing stocks through CFDs, FX, commodities, and indices.</p>
-                            </div>
-                            <div class="uk-width-auto@m">
-                              <div class="in-icon-wrap small transparent uk-margin-left">
-                                <i class="fa fa-search fa-3x"></i>
-                              </div>
-                            </div>
-                        </div>
+      
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-blue">
+                  <div class="in-icon-wrap circle uk-margin-medium-bottom">
+                    <i class="fa fa-search fa-lg"></i>
                     </div>
-                    <div>
-                        <h3 class="uk-heading-bullet"><a class="uk-link-text uk-text-decoration-none" href="#">Charting functionalities</a></h3>
-                        <div class="uk-grid uk-grid-small" data-uk-grid>                        
-                            <div class="uk-width-expand@m">
-                                <p class="uk-text-justify">Leverage upgraded charting functionalities, featuring extended timeframes, additional indicators, and advanced tools.</p>
-                            </div>
-                            <div class="uk-width-auto@m">
-                              <div class="in-icon-wrap small transparent uk-margin-left">
-                                <i class="fa fa-line-chart fa-3x"></i>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="uk-heading-bullet"><a class="uk-link-text uk-text-decoration-none" href="#">Investment portfolio </a></h3>
-                        <div class="uk-grid uk-grid-small" data-uk-grid>                        
-                            <div class="uk-width-expand@m">
-                                <p class="uk-text-justify">Diversify your investment portfolio seamlessly with an intuitive market search and categorization system.</p>
-                            </div>
-                            <div class="uk-width-auto@m">
-                              <div class="in-icon-wrap small transparent uk-margin-left">
-                                <i class="fas fa-life-ring fa-3x"></i>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h4 class="uk-margin-top">
+                        <a href="#">500+ Markets</a>
+                    </h4>
+                    <hr>
+                    <p class="uk-text-justify">Discover a diverse range of 500+ markets, encompassing stocks through CFDs, FX, commodities, and indices.</p>
                 </div>
-                <div class="uk-width-3-3@m uk-text-center uk-margin-medium-top"><p class="uk-text-red uk-text-meta">Trading on your MT5 account with Lucky Ant empowers you to unlock the utmost potential of your trading journey.</p></div>
-       
+            </div>
+        
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-blue">
+                  <div class="in-icon-wrap circle uk-margin-medium-bottom">
+                    <i class="fa fa-line-chart fa-lg"></i>
+                    </div>
+                    <h4 class="uk-margin-top">
+                        <a href="#">Charting Functionalities</a>
+                    </h4>
+                    <hr>
+                    <p class="uk-text-justify">Leverage upgraded charting functionalities, featuring extended timeframes, additional indicators, and advanced tools.</p>
+                </div>
+            </div>
+    
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-blue">
+                  <div class="in-icon-wrap circle uk-margin-medium-bottom">
+                    <i class="fas fa-life-ring fa-lg"></i>
+                    </div>
+                    <h4 class="uk-margin-top">
+                        <a href="#">Investment Portfolio</a>
+                    </h4>
+                    <hr>
+                    <p class="uk-text-justify">Diversify your investment portfolio seamlessly with an intuitive market search and categorization system.</p>
+                </div>
+            </div>
+            <div class="uk-width-1-1 uk-flex uk-flex-center uk-first-column uk-margin-top30">
+                <div class="uk-width-4-5@m uk-text-center">
+                        <p class="uk-text-center uk-text-red">" Trading on your MT5 account with Lucky Ant empowers you to unlock the utmost potential of your trading journey. "</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<!--------End of MT5 Trading Experience ---------------->
 
-
+<!---------------Impressive Features ---------------->
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-3-5@m">
                 <h2 class="uk-margin-small-bottom uk-text-center">Impressive Features</h2>
             </div>
-            <div class="uk-width-4-5">
+            <div class="uk-width-4-5@m uk-width-1-1@s">
                 <table class="uk-table uk-table-middle uk-table-divider uk-table-responsive">
                     <tbody>
                         <tr>
@@ -240,65 +233,40 @@
         </div>
     </div>
 </div>
-                                     
+<!---------------End of Impressive Features---------->
 
-
+<!------------------MetaTrader Account--------------->
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center">
-            <div class="uk-width-1-1@m">
-                <div class="uk-grid uk-flex uk-flex-middle" data-uk-grid>
-                    <div class="uk-width-1-2@m">
-                        <h2 class="text-uk-justify">Tailor Your MetaTrader Account Management</h2>
-                        <div class="uk-width-1-1">
-                            <p class="uk-text-muted text-uk-justify"> Experience the enhanced features of MT5 seamlessly, whether you're accessing it from your desktop or mobile device.</p>
-                        </div>
+            <div class="uk-width-3-4@m">
+           <div class="uk-width-3-4@m">
+              <h2>Tailor Your MetaTrader Account Management</h2>
+           </div>
+              <p>Experience the enhanced features of MT5 seamlessly, whether you're accessing it from your desktop or mobile device.</p>
+                <div class="uk-grid-divider uk-child-width-1-1 uk-child-width-1-3@m uk-margin-medium-top uk-margin-bottom" data-uk-grid>
+                    <div>
+                         <h4><i class="fa-solid fa-desktop uk-text-red"></i> MT5 on Desktop:</h4>
+                        <p class="uk-text-justify">Download MetaTrader directly or engage in trading through the fully-featured, browser-based application of the platform, requiring no additional downloads or plugins.</p>
+                       <!-- <a class="uk-button uk-button-text uk-text-primary" href="#">Download MT5 on Desktop</a> -->
                     </div>
-                    <div class="uk-width-1-2@m">
-                        <div class="uk-margin-large" data-uk-grid>
-                            <div class="uk-width-1-3@m">
-                                <h1 class="uk-text-red uk-text-center@m">
-                                    <i class="fa-solid fa-desktop"></i>
-                                </h1>
-                                <hr class="uk-divider-small uk-text-center@m">
-                            </div>
-                            <div class="uk-width-expand@m">
-                                <h3>MT5 on Desktop:</h3>
-                                <p>Download MetaTrader directly or engage in trading through the fully-featured, browser-based application of the platform, requiring no additional downloads or plugins.</p>
-                            </div>
-                        </div>
-                        <div class="uk-margin-large" data-uk-grid>
-                            <div class="uk-width-1-3@m">
-                                <h1 class="uk-text-red uk-text-center@m">
-                                    <i class="fas fa-mobile-alt"></i>
-                                </h1>
-                                <hr class="uk-divider-small uk-text-center@m">
-                            </div>
-                            <div class="uk-width-expand@m">
-                                <h3>MT5 on Mobile:</h3>
-                                <p>Trade on the go with a comprehensive suite of MT5 mobile trading apps, compatible with iPhone, iPad, and Android devices.</p>
-                            </div>
-                        </div>
-                        <div class="uk-margin-large" data-uk-grid>
-                            <div class="uk-width-1-3@m">
-                                <h1 class="uk-text-red uk-text-center@m">
-                                    <i class="fab fa-edge"></i>
-                                </h1>
-                                <hr class="uk-divider-small uk-text-center@m">
-                            </div>
-                            <div class="uk-width-expand@m">
-                                <h3>MT5 Web:</h3>
-                                <p>Execute trades on the fully-featured, browser-based application of the platform without the need for extra downloads or plugins.</p>
-                                <p>Empower your trading with flexibility and convenience across all devices.</p>
-                            </div>
-                        </div>
+                    <div>
+                        <h4>  <i class="fas fa-mobile-alt uk-text-red"></i> MT5 on Mobile:</h4>
+                        <p class="uk-text-justify">Trade on the go with a comprehensive suite of MT5 mobile trading apps, compatible with iPhone, iPad, and Android devices.</p>
+                  
                     </div>
-                    
+                    <div>
+                        <h4><i class="fab fa-edge uk-text-redc"></i> MT5 Web:</h4>
+                        <p class="uk-text-justify">Execute trades on the fully-featured, browser-based application of the platform without the need for extra downloads or plugins.</p>
+                  
+                    </div>
                 </div>
+                <p class="uk-text-center uk-text-red">" Empower your trading with flexibility and convenience across all devices. "</p>
             </div>
         </div>
     </div>
 </div>
+<!----------End of MetaTrader Account--------------->
 
 <!----------Open an Account----------->
 <div class="uk-section">

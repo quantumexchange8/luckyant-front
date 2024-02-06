@@ -928,8 +928,8 @@ a.uk-link-reset,
  * Divider
  */
 .uk-list-divider > :nth-child(n+2) {
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 30px;
+  padding-top: 38px;
   border-top: 1px solid #e5e5e5;
 }
 
@@ -7985,14 +7985,17 @@ ul.uk-nav-sub {
   line-height: 1.5;
 }
 .uk-text-superlarge {
-  font-size: 4.5rem;
+  font-size: 4.0rem;
   line-height: 1.5;
 }
 .uk-text-slightlarge {
   font-size: 3.5rem;
   line-height: 1.5;
 }
-
+.uk-text-superlarge1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
 
 
 .uk-text-default {
@@ -24339,4 +24342,9 @@ footer .social-media-list div a .fab:hover {
 .fas.fa-chevron-right:hover, .fas.fa-chevron-left:hover {
   opacity: 0.5;  /* Adjust the opacity level on hover as needed */
   color:#B3D2EF;
+}
+@media only screen and (max-width: 767px) {
+  html p {
+      line-height: 1.2;
+  }
 }
