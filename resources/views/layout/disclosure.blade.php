@@ -51,7 +51,7 @@
         <!-- Sidebar -->
         <div class="uk-width-expand@m">
             <div class="uk-card uk-card-default uk-card-body">
-                <h3 class="uk-card-title">Content</h3>
+                <h5 class="uk-heading-bullet uk-text-uppercase uk-margin-remove-bottom">Content </h5>
                 <ul class="uk-list">
                     <li><a href="#intro">Introduction</a></li>
                     <li><a href="#leverage">Leverage</a></li>
