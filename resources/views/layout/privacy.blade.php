@@ -5,7 +5,8 @@
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
-                <h1 class="uk-text-superlarge uk-padding uk-text-white">Privacy Policy</h1>
+                <h1 class="uk-text-superlarge2 uk-padding uk-text-white uk-visible@m">Privacy Policy</h1>
+                <h1 class="uk-text-superlarge1 uk-text-white uk-margin-remove-bottom uk-hidden@m">Privacy Policy </h1>
             </div>
         </div>
     </div>

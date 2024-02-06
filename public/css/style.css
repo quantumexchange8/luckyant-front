@@ -7993,10 +7993,13 @@ ul.uk-nav-sub {
   line-height: 1.5;
 }
 .uk-text-superlarge1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.uk-text-superlarge2 {
   font-size: 3.2rem;
   line-height: 1.5;
 }
-
 
 .uk-text-default {
   font-size: 16.2px;
@@ -24106,7 +24109,7 @@ footer .social-media-list div a .fab:hover {
 }
 @media (max-width: 639px) {
   .in-profit-9 .uk-container {
-    padding-bottom: 139px;
+    padding-bottom: 59px;
   }
 }
 .in-profit-11 {
@@ -24347,4 +24350,7 @@ footer .social-media-list div a .fab:hover {
   html p, .uk-text-default, .uk-text-meta {
       line-height: 1.2;
   }
+}
+.uk-list li a:hover {
+  color: #c00000; /* Change the color to your desired color */
 }

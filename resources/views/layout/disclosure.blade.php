@@ -4,7 +4,7 @@
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
-                <h1 class="uk-text-superlarge uk-text-white uk-margin-remove-bottom uk-visible@m">Disclosures and Risk Warning</h1>
+                <h1 class="uk-text-superlarge2 uk-padding uk-text-white uk-margin-remove-bottom uk-visible@m">Disclosures and Risk Warning</h1>
                 <h1 class="uk-text-superlarge1 uk-text-white uk-margin-remove-bottom uk-hidden@m">Disclosures and Risk Warning </h1>
             </div>
         </div>
@@ -169,7 +169,7 @@
 
         <!-- Section 1 -->
         <div class="uk-width-1-1@m" id="exchange"> 
-            <div class="uk-card uk-card-default uk-card-body">
+            <div class="uk-card uk-card-default uk-card-body uk-margin-top">
                 <h2 id="section1">Dealing Off Exchange</h2>
                 <p class="uk-text-justify uk-text-meta">Transactions with Lucky Ant Trading are not transacted on a recognised or designated investment exchange and, accordingly, they may expose you to greater risks than exchange transactions. The Transactions structure and rules
                     will be established solely by Lucky Ant Trading in accordance with MSB and related regulation. For example,if you wish to close the position earlier than the time at which it would otherwise automatically expire, you will have 

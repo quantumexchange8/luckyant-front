@@ -1,16 +1,16 @@
 @extends('master.master')
 @section('content')
+
 <div class="uk-section  uk-background-cover"  style="background-image: url({{asset('img/blockit/bg-01.png')}});">
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
-                <h1 class="uk-text-superlarge uk-text-white uk-margin-remove-bottom uk-visible@m">Customer Agreement</h1>
+                <h1 class="uk-text-superlarge2 uk-padding uk-text-white uk-margin-remove-bottom uk-visible@m">Customer Agreement</h1>
                 <h1 class="uk-text-superlarge1 uk-text-white uk-margin-remove-bottom uk-hidden@m">Customer Agreement </h1>
             </div>
         </div>
     </div>
 </div>
-
 
 
 <div class="uk-container uk-margin-top">
@@ -319,7 +319,7 @@
                         whether to trade in such instruments you should be aware of the following factors
                         concerning trading the derivatives products in LUCKY ANT.
                     </p>
-                    <ol style=" list-style-type:upper-alpha">
+                    <ol style=" list-style-type:lower-alpha">
                     <li>Futures</li>
                     <p class="uk-text-justify uk-text-meta">Transactions in futures involve the obligation to make, or take delivery of the
                         underlying asset of the contract at a future date, or in some cases to settle your
@@ -568,7 +568,7 @@
                         other person for:
                     </p>
                   <ol style="list-style-type: lower-alpha" class="uk-text-justify uk-text-meta">
-                    <li> Any inaccuracy, error or delay in, or omission of any such data, information or
+                    <li class="uk-margin-bottom"> Any inaccuracy, error or delay in, or omission of any such data, information or
                         message or the transmission or delivery of any such data, information or message; or</li>  
                     <li> LUCKY ANT shall not be liable for any loss or damage arising from or occasioned
                         by any inaccuracy, error, delay, omission, non-performance, or interruption in any data,
@@ -678,14 +678,14 @@
                         <hr class="uk-margin-medium-top uk-margin-small-bottom">
                         <ul class="in-faq-5" data-uk-accordion="collapsible: false">
                             <li class="uk-open">
-                                <a class="uk-accordion-title" href="#">Why does LUCKY ANT collect personal information ?</a>
+                                <a class="uk-accordion-title uk-text-lead" href="#">Why does LUCKY ANT collect personal information ?</a>
                                 <div class="uk-accordion-content">
                                     <p class="uk-text-justify uk-text-meta">Our business is to meet our customers' needs for a range of financial services. To do
                                             this effectively, we need to collect certain personal information.</p>
                                 </div>
                             </li>
                             <li>
-                                <a class="uk-accordion-title" href="#">What kind of personal information do we ask for ?</a>
+                                <a class="uk-accordion-title uk-text-lead" href="#">What kind of personal information do we ask for ?</a>
                                 <div class="uk-accordion-content">
                                 
                                         <p class="uk-text-justify uk-text-meta">The type of personal information we may collect can include (but is not limited to)
@@ -702,9 +702,9 @@
                                 </div>
                             </li>
                             <li>
-                                <a class="uk-accordion-title" href="#">How do we store personal information ?</a>
+                                <a class="uk-accordion-title uk-text-lead" href="#">How do we store personal information ?</a>
                                 <div class="uk-accordion-content">
-                                    <p> Safeguarding the privacy of your information is important to us, whether you interact
+                                    <p class="uk-text-justify uk-text-meta"> Safeguarding the privacy of your information is important to us, whether you interact
                                         with us personally, by phone, mail, over the internet or other electronic medium. We
                                         hold personal information in a combination of secure computer storage facilities and
                                         paper-based files and other records, and take steps to protect the personal

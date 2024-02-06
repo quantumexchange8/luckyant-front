@@ -5,7 +5,7 @@
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
-                <h1 class="uk-text-superlarge uk-text-white uk-margin-remove-bottom uk-visible@m">Copy Trading Terms & Conditions </h1>
+                <h1 class="uk-text-superlarge2 uk-padding uk-text-white uk-margin-remove-bottom uk-visible@m">Copy Trading Terms & Conditions </h1>
                 <h1 class="uk-text-superlarge1 uk-text-white uk-margin-remove-bottom uk-hidden@m">Copy Trading Terms & Conditions </h1>
             </div>
         </div>
@@ -17,7 +17,7 @@
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center" data-uk-grid>
-            <div class="uk-width-1-1@m"  id="disclaimer">
+            <div class="uk-width-1-1@m"  >
                 <h2>Copy Trading Terms and Conditions</h2>
                 <p class="uk-text-justify uk-text-grey uk-text-default">For client protection and satisfaction, you should take time to carefully read this Agreement as well as any other 
                     policies, additional documents and information available to you through our website prior to opening a trading account with us. By default, you must read, agree and 
@@ -34,7 +34,7 @@
                     and these Terms and Conditions, our Terms of Business shall prevail.
                 </p>
             </div>
-            <div class="uk-width-1-1@m">
+            <div class="uk-width-1-1@m" id="disclaimer">
                 <h3>Copy Trading Disclaimer</h3>
                 <p class="uk-text-justify uk-text-grey uk-text-default">Copy Trading is a product of the social trading community which is defined as clients’ willingness to share intelligence 
                     and expertise, including sharing of trading strategies and 	real time flow of trades, carried out on the basis of individual client choices or effected through the automated 
