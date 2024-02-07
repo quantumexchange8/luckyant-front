@@ -3,7 +3,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContactController;
 //use App\Http\Controllers\CountryController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\LocalizationController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::get('localization/{locale}',[LocalizationController::class, 'setLang']);
 
 Route::get('/',[UserController::class, 'index'])->name('index');
 
@@ -36,4 +36,5 @@ Route::get('copytradepolicy', [UserController::class, 'copytradepolicy'])->name(
 Route::get('disclosure', [UserController::class, 'disclosure'])->name('disclosure');
 Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
 Route::get('customer', [UserController::class, 'customer'])->name('customer');
+
 

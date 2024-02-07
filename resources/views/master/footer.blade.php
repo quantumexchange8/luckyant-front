@@ -10,15 +10,15 @@
                     </div>
                     <ul class="uk-list uk-link-text uk-margin-remove-top">
                         <li>
-                            <div><i class="fa fa-registered uk-margin-small-right"></i>Registration Number : </div>
+                            <div><i class="fa fa-registered uk-margin-small-right"></i>@lang('messages.registration_number') </div>
                             <div> <p>31000262677236</p> </div>
                         </li>
                         <li>
-                            <div><i class="fas fa-envelope uk-margin-small-right"></i>Email : </div>
+                            <div><i class="fas fa-envelope uk-margin-small-right"></i>@lang('messages.email')  </div>
                             <div> <a href="mailto:support@luckyantfxasia.com">support@luckyantfxasia.com</a> </div>
                         </li>
                         <li>
-                            <div><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Address : </div>
+                            <div><i class="fas fa-map-marker-alt uk-margin-small-right"></i>@lang('messages.address') </div>
                             <div> <p>1312 17TH ST UNIT NUM 2955</p> </div>
                         </li>
                     </ul>
@@ -26,8 +26,8 @@
                 <div>
                     <h4 class="uk-heading-bullet">Overview</h4>
                     <ul class="uk-list uk-link-text">
-                        <li><a href="{{route('index')}}">Home</a></li>
-                        <li><a href="{{route('about')}}">About Us</a></li>
+                        <li><a href="{{route('index')}}">@lang('messages.home')</a></li>
+                        <li><a href="{{route('about')}}">@lang('messages.about_us')</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
@@ -44,7 +44,7 @@
                     <h4 class="uk-heading-bullet">Trading</h4>
                     <ul class="uk-list uk-link-text">
                         <li><a href="{{route('trading')}}">Trading Platform</a></li>
-                        <li><a href="{{route('copytrading')}}">Copy Trading</a></li>
+                        <li><a href="{{route('copytrading')}}">@lang('messages.copy_trading')</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,36 +56,39 @@
                 <div class="uk-width-5-6@m uk-margin-bottom">
                     <div class="footer-warning in-margin-top-20@s">
                         <h5 class="uk-text-small uk-text-uppercase"><span>Risk Warning</span></h5>
-                        <p class="uk-text-small">“All recommendations provided on this website or through associated communications are intended solely as general advice. These suggestions are based on the inherent investment or trading value of financial products and do not account for individualized investment objectives, financial conditions, or specific needs.
+                        <p class="uk-text-small">@lang('messages.risk_warning') 
                         </p>
                         <p class="uk-text-small">
-                            Prior to making any investment or trading decisions based on this advice, recipients are advised to meticulously assess its relevance to their unique financial circumstances. It is crucial to thoroughly review the product disclosure statements pertaining to relevant financial products, as provided by your investment broker.
+                            @lang('messages.risk_warning2') 
                         </p>
                         <p class="uk-text-small">
-                            Please be aware that over-the-counter derivatives carry substantial risks and may not be suitable for every investor. Potential losses could surpass the initial investment amount. Acquiring derivative products confers no rights, privileges, or obligations to the underlying financial assets.”
+                            @lang('messages.risk_warning3') 
                         </p>
                     </div>
                 </div>
                 <div class="uk-width-1-2@m custom-small-screen">
                     <p class="copyright-text">© Lucky Ant 2024</p>
                 </div>
-               
                 <div class="uk-width-1-2@m uk-flex uk-flex-right@m custom-small-screen">
-                    
-                <a class="uk-text-small" href="{{route('terms')}}">
-                    TERMS AND POLICIES 
-                </a>
-                <div class="uk-width-1-3@m uk-flex uk-flex-right@m custom-small-screen">
-                    <div class="uk-flex social-media-list">
-                    <div><a href="#" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
-                    <div><a href="#" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
-                    <div><a href="#" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
-                    <div><a href="#" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
-                    </div>
+                    <a class="uk-text-small" href="{{route('terms')}}">
+                        @lang('messages.terms_policies')  </a>
                 </div>
+              
+         
+            <div class="uk-width-1-1@m  uk-flex uk-flex-right@m custom-small-screen uk-margin-remove-top">
+                <!-- social media begin -->
+                <div class="uk-flex social-media-list">
+                            <div><a href="#" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
+                            <div><a href="#" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
+                            <div><a href="#" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
+                            <div><a href="#" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
                 </div>
-          
+                <!-- social media end -->
             </div>
+            
+            </div>
+        
+           
         </div>        
     </div>
 </footer>

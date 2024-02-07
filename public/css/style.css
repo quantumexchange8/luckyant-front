@@ -24305,6 +24305,12 @@ footer .social-media-list div a .fab:hover {
 @media (max-width: 448px) {
   .custom-small-screen {
       /* Adjust the height or any other styles as needed */
+      height: 35px;
+  }
+}
+@media (max-width: 448px) {
+  .custom-small-screen1 {
+      /* Adjust the height or any other styles as needed */
       height: 50px;
   }
 }
@@ -24353,4 +24359,8 @@ footer .social-media-list div a .fab:hover {
 }
 .uk-list li a:hover {
   color: #c00000; /* Change the color to your desired color */
+}
+
+.uk-flex > .custom-small-screen1 {
+  align-items: center;
 }

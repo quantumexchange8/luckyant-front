@@ -1,5 +1,33 @@
 <header>
-
+    <div class="uk-section uk-padding-small in-profit-ticker">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <div>
+                        <div class="uk-inline">
+                            <span class="uk-text-blue" type="button" uk-toggle="target: #language-dropdown">
+                               <a href="#"><i class="fas fa-angle-down"></i></a>  <i class="fa-solid fa-language"  style="margin-left: 10px;"></i>
+                                
+                                @if (App::getLocale() === 'en')
+                                <span> English </span>
+                                @elseif (App::getLocale() === 'cn')
+                                <span>简体中文 </span>
+                              
+                                @endif
+                            </span>
+                            <div id="language-dropdown" uk-dropdown="mode: click; boundary: !.uk-button-group; boundary-align: true;" style="background-color:white;">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="{{ url('localization/en') }}"><img class="mr-2" src="{{ asset('img/Logo/en.png') }}" alt="English">English</a></li>
+                                    <li><a href="{{ url('localization/cn') }}"><img class="mr-2" src="{{ asset('img/Logo/cn.png') }}" alt="简体中文">简体中文</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
     <div class="uk-section uk-padding-remove-vertical">
         <nav class="uk-navbar-container" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
@@ -10,9 +38,9 @@
                         <img src="{{asset('img/Logo/logo.svg')}}" data-src="{{asset('img/Logo/logo.svg')}}" alt="logo" width="130" height="36" data-uk-img>
                     </a>
                     <ul class="uk-navbar-nav uk-visible@m">
-                        <li class="{{ request()->is('/') ? 'uk-active' : '' }}"><a href="{{ route('index') }}">Home</a>
+                        <li class="{{ request()->is('/') ? 'uk-active' : '' }}"><a href="{{ route('index') }}">@lang('messages.home')</a>
                         </li>
-                        <li class="{{ request()->is('about') ? 'uk-active' : '' }}"><a href="{{ route('about') }}">About Us</a>
+                        <li class="{{ request()->is('about') ? 'uk-active' : '' }}"><a href="{{ route('about') }}">@lang('messages.about_us')</a>
                         </li>
                         <li class="{{ request()->is('market/*') ? 'uk-active' : '' }}"><a href="#">Market<span data-uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
@@ -26,7 +54,7 @@
                         </li>
                         <li class="{{ request()->is('trading') ? 'uk-active' : '' }}"><a href="{{ route('trading') }}">Trading Platform</a>
                         </li>
-                        <li class="{{ request()->is('copytrading') ? 'uk-active' : '' }}"><a href="{{ route('copytrading') }}">Copy Trading</a>
+                        <li class="{{ request()->is('copytrading') ? 'uk-active' : '' }}"><a href="{{ route('copytrading') }}">@lang('messages.copy_trading')</a>
                         <li class="{{ request()->is('contact') ? 'uk-active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a>
                         </li>
                     </ul>

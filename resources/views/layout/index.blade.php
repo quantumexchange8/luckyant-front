@@ -40,11 +40,11 @@
                         <div class="uk-grid" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-3-5@l uk-width-4-5@m">
                                 <div class="uk-overlay">
-                                    <h1>Leading the digital era of financial revolution, pioneering new attempts to empower the future of the financial industry</h1>
-                                    <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible">Partner with the world's leading online brokers and choose Lucky Ant Trading as your ideal companion. We are committed to providing fast, competitively priced global market trading, coupled with excellent customer service, to create an unparalleled trading environment for you.</p>
+                                    <h1>@lang('messages.leading_digital')</h1>
+                                    <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible">@lang('messages.leading_description')</p>
                                     <div class="in-slideshow-button uk-margin-top">
-                                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open Real Account</a>
-                                        <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">Open Demo Account</a>
+                                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
+                                        <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">@lang('messages.demo_account')</a>
                                     </div>
                                 
                                 </div>
@@ -60,15 +60,15 @@
                         <div class="uk-grid" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-3-5@m">
                                 <div class="uk-overlay">
-                                    <h1 class="uk-hidden@m uk-text-darkblue1">One-click copy trading, sharing success, freeing up your hands</h1>
-                                    <h1 class="uk-visible@m">One-click copy trading, sharing success, freeing up your hands</h1>
+                                    <h1 class="uk-hidden@m uk-text-darkblue1">@lang('messages.one_click')</h1>
+                                    <h1 class="uk-visible@m">@lang('messages.one_click')</h1>
                                     
-                                    <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-visible@m">Copy trading is officially launched, allowing you to automatically replicate the operations of excellent traders, injecting more possibilities into your investments. This convenient feature not only frees up your hands but also allows you to easily participate in the market, experiencing a more colorful trading journey.</p>
-                                    <p class="uk-text-darkblue1 uk-text-meta1 uk-visible uk-text-justify uk-hidden@m">Copy trading is officially launched, allowing you to automatically replicate the operations of excellent traders, injecting more possibilities into your investments. This convenient feature not only frees up your hands but also allows you to easily participate in the market, experiencing a more colorful trading journey.</p>
+                                    <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-visible@m">@lang('messages.oneclick_desc')</p>
+                                    <p class="uk-text-darkblue1 uk-text-meta1 uk-visible uk-text-justify uk-hidden@m">@lang('messages.oneclick_desc')</p>
                 
                                     <div class="in-slideshow-button">
-                                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open Real Account </a>
-                                        <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">Open Demo Account</a>
+                                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account') </a>
+                                        <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">@lang('messages.demo_account')</a>
                                     </div>
                                 </div>
                             </div>
@@ -100,25 +100,25 @@
                                 <div class="in-icon-wrap circle uk-box-shadow-small uk-margin-auto">
                                     <i class="fas fa-drafting-compass"></i>
                                 </div>
-                                <p class="uk-text-bold uk-margin-small-top">Trading Tools  </p>
+                                <p class="uk-text-bold uk-margin-small-top">@lang('messages.trading_tools')</p>
                             </div>
                             <div>
                                 <div class="in-icon-wrap circle uk-box-shadow-small uk-margin-auto">
                                     <i class="fas fa-bolt"></i>
                                 </div>
-                                <p class="uk-text-bold uk-margin-small-top">Swift Execution   </p>
+                                <p class="uk-text-bold uk-margin-small-top">@lang('messages.swift_executiontools')</p>
                             </div>
                             <div>
                                 <div class="in-icon-wrap circle uk-box-shadow-small uk-margin-auto">
                                     <i class="fas fa-chart-area"></i>
                                 </div>
-                                <p class="uk-text-bold uk-margin-small-top">Ultra-Low Spreads     </p>
+                                <p class="uk-text-bold uk-margin-small-top">@lang('messages.ultra_low') </p>
                             </div>
                             <div>
                                 <div class="in-icon-wrap circle uk-box-shadow-small uk-margin-auto">
                                     <i class="fas fa-percentage"></i>
                                 </div>
-                                <p class="uk-text-bold uk-margin-small-top">Commission Rebates</p>
+                                <p class="uk-text-bold uk-margin-small-top">@lang('messages.commission_rebates')</p>
                             </div>
                         </div>
                     </div>
@@ -135,25 +135,25 @@
     <div class="uk-container uk-margin-bottom">
         <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
             <div class="uk-width-1-1">
-                <h2>As Your Preferred Partner</h2>
-                <p class="uk-text-grey">Superior market liquidity, ultra-low spreads, and rapid order execution allow you to enjoy an outstanding trading experience.</p>
+                <h2>@lang('messages.preferred_partner')</h2>
+                <p class="uk-text-grey">@lang('messages.preferred_caption')</p>
             </div>
           
             <div>
                 <img src="#" data-src="{{asset('img/in-profit-icon-2.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Diverse trading tools</h4>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.diverse_tools')</h4>
             </div>
             <div>
                 <img src="#" data-src="{{asset('img/in-profit-icon-8.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Unparalleled trading conditions</h4>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.unparalleled_trading')</h4>
             </div>
             <div>
                 <img src="#" data-src="{{asset('img/in-profit-icon-10.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Globally licensed and authoritative regulatory compliance</h4>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.globally_licensed')</h4>
             </div>
             <div>
                 <img src="#" data-src="{{asset('img/in-profit-icon-9.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Committed to forex education</h4>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.forex_education')</h4>
             </div>
         </div>
     </div>
@@ -318,22 +318,17 @@
                 </div>  
             </div>
             <div class="uk-width-1-3@l uk-width-1-2@m">
-                <h2>MetaTrader 5: A Unified Platform for Multiple Markets</h2>
-                <p class="uk-text-justify uk-text-meta uk-text-grey">As the most powerful trading platform for forex and financial markets, MetaTrader 5 is not only suitable for the forex market but also supports stocks, futures, 
-                    commodities markets, as well as various financial markets such as digital cryptocurrencies.
+                <h2>@lang('messages.metatrader_title')</h2>
+                <p class="uk-text-justify uk-text-meta uk-text-grey">@lang('messages.metatrader_caption')
                 </p>
-                <p class="uk-text-justify uk-text-meta uk-text-grey">This means traders can easily access and trade various assets on the same platform, 
-                    providing a broader range of investment choices and flexibility. This comprehensive platform allows traders to flexibly navigate multiple markets, offering unlimited expansion to 
-                    their investment scope.
-                </p> 
                 <div class="uk-flex" data-uk-margin>
                     <a href="#" class="uk-button in-button-app uk-margin-small-right">
                         <i class="fab fa-google-play fa-2x"></i>
-                        <span class="wrapper">Download <br><span>Android Version</span></span>
+                        <span class="wrapper">@lang('messages.download') <br><span>@lang('messages.android')</span></span>
                     </a>
                     <a href="#" class="uk-button in-button-app">
                         <i class="fa-brands fa-windows fa-2x"></i>
-                        <span class="wrapper">Download <br><span>Desktop Version</span></span>
+                        <span class="wrapper">@lang('messages.download') <br><span>@lang('messages.desktop')</span></span>
                     </a>
                 </div>
             </div>
@@ -347,40 +342,40 @@
     <div class="uk-container uk-background-contain uk-background-bottom-right" data-uk-img><!-- data-src="img/in-profit-mockup-2.png"  -->
         <div class="uk-grid" data-uk-grid>
             <div class="uk-width-1-1 in-offset-bottom-20">
-                <h2 class="uk-margin-medium-bottom text-align-center">Why Choose Us?</h2>
+                <h2 class="uk-margin-medium-bottom text-align-center">@lang('messages.choose_us')</h2>
             </div>
         </div>
         <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-5.svg')}}" data-src="{{asset('img/in-profit-icon-5.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue ">Swift Execution and Deep Liquidity </h4>
-                <p class="uk-text-grey uk-text-justify">Experience a rapid trading process and ample market liquidity with ultra-low spreads and high-speed order execution, optimizing your trading experience.
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue ">@lang('messages.swift_execution')</h4>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.swiftexecution_caption')
                 </p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-6.svg')}}" data-src="{{asset('img/in-profit-icon-6.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Diverse Payment Methods </h4>
-                <p class="uk-text-grey uk-text-justify">Easily deposit and withdraw funds using various payment methods, providing you with flexible financial management options.</p>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.diverse_payment') </h4>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.diversepayment_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-3.svg')}}" data-src="{{asset('img/in-profit-icon-3.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Industry-Leading Trading Platform </h4>
-                <p class="uk-text-grey uk-text-justify">Millions of traders choose MetaTrader 5 as their preferred platform, trading anytime, anywhere through desktop, smartphones, or tablets, and enjoying exceptional trading tools and features.</p>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.industry_leading')</h4>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.industry_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-2.svg')}}" data-src="{{asset('img/in-profit-icon-2.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Copy Trading </h4>
-                <p class="uk-text-grey uk-text-justify">By selecting and replicating the best-performing trading strategies, you can gain additional passive income, achieving more comprehensive trading success.</p>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.copy_trading')</h4>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.copytrading_desc')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-1.svg')}}" data-src="{{asset('img/in-profit-icon-1.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">24/7 Professional Customer Service </h4>
-                <p class="uk-text-grey uk-text-justify">Our professional multilingual customer service team is ready to answer your questions, ensuring timely support and excellent service.</p>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.24/7_cs')</h4>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.24/7cs_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-4.svg')}}" data-src="{{asset('img/in-profit-icon-4.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
-                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">Trading Mode  </h4>
-                <p class="uk-text-grey uk-text-justify">Choose to trade with a regulated STP/ECN broker, fully understanding your rights and safeguarding your asset security. We are committed to providing you with a transparent, reliable trading environment, ensuring your investments are fully protected.                    .</p>
+                <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.trading_mode')</h4>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.tradingmode_caption')</p>
             </div>
         </div>
     </div>
