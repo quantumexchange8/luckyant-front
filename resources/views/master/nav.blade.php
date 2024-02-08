@@ -55,7 +55,7 @@
                         <li class="{{ request()->is('trading') ? 'uk-active' : '' }}"><a href="{{ route('trading') }}">@lang('messages.trading_platform')</a>
                         </li>
                         <li class="{{ request()->is('copytrading') ? 'uk-active' : '' }}"><a href="{{ route('copytrading') }}">@lang('messages.copy_trading')</a>
-                        <li class="{{ request()->is('contact') ? 'uk-active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a>
+                        <li class="{{ request()->is('contact') ? 'uk-active' : '' }}"><a href="{{ route('contact') }}">@lang('messages.contact_us')</a>
                         </li>
                     </ul>
              
