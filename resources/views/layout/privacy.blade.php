@@ -161,10 +161,10 @@
                         <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
                             <h5 class="uk-heading-bullet uk-text-uppercase uk-margin-remove-bottom">Policy Content</h5>
                             <ul class="uk-list uk-list-divider uk-list-large widget-latest">
-                                <li><a href="{{url('privacy')}}#collection">Collection of Personal Information</a></li>
-                                <li><a href="{{url('privacy')}}#cookies">Cookies</a></li>
-                                <li><a href="{{url('privacy')}}#disclosure">Disclosure of Personal Information </a></li>
-                                <li><a href="{{url('privacy')}}#security">Security of Personal Information</a></li>
+                                <li><a href="{{url('privacy-policy')}}#collection">Collection of Personal Information</a></li>
+                                <li><a href="{{url('privacy-policy')}}#cookies">Cookies</a></li>
+                                <li><a href="{{url('privacy-policy')}}#disclosure">Disclosure of Personal Information </a></li>
+                                <li><a href="{{url('privacy-policy')}}#security">Security of Personal Information</a></li>
                             </ul>        
                         </div>
                     </aside>

@@ -199,12 +199,12 @@
                         <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
                             <h5 class="uk-heading-bullet uk-text-uppercase uk-margin-remove-bottom">Copy Trader Content</h5>
                             <ul class="uk-list uk-list-divider uk-list-large widget-latest">
-                                <li><a href="{{url('copytradepolicy')}}#disclaimer">Copy Trading Disclaimer</a></li>
-                                <li><a href="{{url('copytradepolicy')}}#sustain">Suitability to Use CopyTrading Services</a></li>
-                                <li><a href="{{url('copytradepolicy')}}#consent">Consent and Acknowledgment </a></li>
-                                <li><a href="{{url('copytradepolicy')}}#terms">Copytrading Terms</a></li>
-                                <li><a href="{{url('copytradepolicy')}}#fees">Fees and Charges</a></li>
-                                <li><a href="{{url('copytradepolicy')}}#review">Policy Review</a></li>
+                                <li><a href="{{url('copy-trading-terms-policy')}}#disclaimer">Copy Trading Disclaimer</a></li>
+                                <li><a href="{{url('copy-trading-terms-policy')}}#sustain">Suitability to Use CopyTrading Services</a></li>
+                                <li><a href="{{url('copy-trading-terms-policy')}}#consent">Consent and Acknowledgment </a></li>
+                                <li><a href="{{url('copy-trading-terms-policy')}}#terms">Copytrading Terms</a></li>
+                                <li><a href="{{url('copy-trading-terms-policy')}}#fees">Fees and Charges</a></li>
+                                <li><a href="{{url('copy-trading-terms-policy')}}#review">Policy Review</a></li>
                             </ul>        
                         </div>
                     </aside>
