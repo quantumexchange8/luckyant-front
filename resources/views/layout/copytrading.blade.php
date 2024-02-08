@@ -3,7 +3,7 @@
 @section('content')
 
 <!-------------------Copy trading description-------------------->
-<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover uk-background-bottom-center in-padding-large-vertical@s in-profit-3" data-src="{{asset('img/copytrading-02.png')}}" data-uk-img>
+<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover uk-background-bottom-center in-padding-large-vertical@s in-profit-3"  style="background-image: url('{{asset('img/copytrading-02.png')}}');" data-uk-img>
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-grid-large" data-uk-grid>
             <div class="uk-width-3-5@m">
@@ -22,7 +22,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
                 <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
           
                 </ul>
             </div>

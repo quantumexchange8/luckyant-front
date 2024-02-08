@@ -14,7 +14,7 @@
                             <div> <p>31000262677236</p> </div>
                         </li>
                         <li>
-                            <div><i class="fas fa-envelope uk-margin-small-right"></i>@lang('messages.email')  </div>
+                            <div><i class="fas fa-envelope uk-margin-small-right"></i>@lang('messages.email'):  </div>
                             <div> <a href="mailto:support@luckyantfxasia.com">support@luckyantfxasia.com</a> </div>
                         </li>
                         <li>
@@ -24,33 +24,33 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="uk-heading-bullet">Overview</h4>
+                    <h4 class="uk-heading-bullet">@lang('messages.overview')</h4>
                     <ul class="uk-list uk-link-text">
                         <li><a href="{{route('index')}}">@lang('messages.home')</a></li>
                         <li><a href="{{route('about')}}">@lang('messages.about_us')</a></li>
-                        <li><a href="{{route('contact')}}">Contact Us</a></li>
+                        <li><a href="{{route('contact')}}">@lang('messages.contact_us')</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="uk-heading-bullet">Market</h4>
+                    <h4 class="uk-heading-bullet">@lang('messages.market')</h4>
                     <ul class="uk-list uk-link-text">
-                        <li><a href="{{route('forex')}}">Forex</a></li>
-                        <li><a href="{{route('stock')}}">Stock</a></li>
-                        <li><a href="{{route('cfd')}}">CFDs</a></li>
-                        <li><a href="{{route('indices')}}">Indices</a></li>
+                        <li><a href="{{route('forex')}}">@lang('messages.forex')</a></li>
+                        <li><a href="{{route('stock')}}">@lang('messages.stock')</a></li>
+                        <li><a href="{{route('cfd')}}">@lang('messages.cfd')</a></li>
+                        <li><a href="{{route('indices')}}">@lang('messages.indices')</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="uk-heading-bullet">Trading</h4>
+                    <h4 class="uk-heading-bullet">@lang('messages.trading')</h4>
                     <ul class="uk-list uk-link-text">
-                        <li><a href="{{route('trading')}}">Trading Platform</a></li>
+                        <li><a href="{{route('trading')}}">@lang('messages.trading_platform')</a></li>
                         <li><a href="{{route('copytrading')}}">@lang('messages.copy_trading')</a></li>
                     </ul>
                 </div>
             </div>
             <div class="uk-grid uk-flex uk-flex-center uk-margin-large-top uk-margin-small-bottom" data-uk-grid="">
                 <div class="uk-width-1-1@xl uk-margin-bottom">
-                    <p class="uk-text-small">© 2017 - 2024 Lucky Ant Corporation. All rights reserved. "FX Asia" and the Lucky Ant "Fx" series trademarks are owned by Lucky Ant Corporation. All other trademarks appearing on this website are the property of their respective owners.
+                    <p class="uk-text-small">@lang('messages.luckyant_copyright')
                     </p>
                 </div>
                 <div class="uk-width-5-6@m uk-margin-bottom">

@@ -6,7 +6,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
                 <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
                 </ul>
             </div>
         </div>
@@ -22,36 +22,36 @@
             <div class="uk-width-4-5@m">
                 <div class="uk-grid uk-child-width-1-2@m uk-margin-medium-top uk-text-center" data-uk-grid="">
                     <div>
-                        <h5 class="uk-margin-remove-bottom">Address</h5>
+                        <h5 class="uk-margin-remove-bottom">@lang('messages.address')</h5>
                         <p class="uk-margin-small-top">1312 17TH ST UNIT NUM 2955</p>
                     </div>
                     <div>   
-                        <h5 class="uk-margin-remove-bottom">Email</h5>
+                        <h5 class="uk-margin-remove-bottom">@lang('messages.email'):</h5>
                         <p class="uk-margin-small-top uk-margin-remove-bottom">support@luckyantfxasia.com</p>
                     </div>
                 </div>
                 <hr class="uk-margin-medium">
-                <h1 class="uk-margin-small-top uk-text-center">Contact Us</h1>
-                <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-justify uk-text-default">Thank you for choosing to get in touch with us. Please use the registration information form below to provide your details, or you can contact us via email at support@luckyantfxasia.com. This will help us better understand your needs and provide you with professional assistance. Your information will be kept confidential and used to handle your inquiries.</p>
+                <h1 class="uk-margin-small-top uk-text-center">@lang('messages.contact_us')</h1>
+                <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-justify uk-text-default">@lang('messages.contact_caption')</p>
                 {{-- <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="{{ route('contact.store') }}" method="post"> --}}
                 <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="{{ route('contact.submit') }}" method="post">
                     @csrf
                 <div class="uk-width-1-1@s uk-inline">
                     <span class="uk-form-icon fas fa-user fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="name" name="name" required type="text" placeholder="Full name">
+                    <input class="uk-input uk-border-rounded" id="name" name="name" required type="text" placeholder="@lang('messages.name')">
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fas fa-envelope fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="email" name="email" required type="email" placeholder="Email address">
+                    <input class="uk-input uk-border-rounded" id="email" name="email" required type="email" placeholder="@lang('messages.email')">
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fas fa-pen fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="phone" name="phone" required type="text" placeholder="Phone Number">
+                    <input class="uk-input uk-border-rounded" id="phone" name="phone" required type="text" placeholder="@lang('messages.phone_number')">
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fa fa-angle-down fa-sm"></span>
                     <select class="uk-input uk-border-rounded" required name="country">
-                        <option value="" disabled selected class="uk-text-muted">Select a Country</option>
+                        <option value="" disabled selected class="uk-text-muted">@lang('messages.country')</option>
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Åland Islands">Åland Islands</option>
                         <option value="Albania">Albania</option>
@@ -303,13 +303,13 @@
                 </div>
                 <div class="uk-width-1-2@s uk-inline">
                     <span class="uk-form-icon fa fa-users fa-sm"></span>
-                    <input class="uk-input uk-border-rounded" id="interest" required name="interest" type="text" placeholder="Cooperation Plan of Interest">
+                    <input class="uk-input uk-border-rounded" id="interest" required name="interest" type="text" placeholder="@lang('messages.plan_interest')">
                 </div>
                 <div class="uk-width-1-1">
-                    <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="Additional Comments"></textarea>
+                    <textarea class="uk-textarea uk-border-rounded" id="message" name="message" rows="6" placeholder="@lang('messages.additional_comment')"></textarea>
                 </div>
                 <div class="uk-width-1-1">
-                    <button class="uk-width-1-1 uk-button uk-button-primary uk-border-rounded" id="submitBtn" type="submit" name="submit" data-loading-text="Loading..." data-original-text="Submit">Submit</button>
+                    <button class="uk-width-1-1 uk-button uk-button-primary uk-border-rounded" id="submitBtn" type="submit" name="submit" data-loading-text="Loading..." data-original-text="Submit">@lang('messages.submit')</button>
                 </div>
                
                 @if(session('success'))
@@ -322,9 +322,9 @@
                         timer: 3000 // Set the timer for how long you want the message to be displayed
                     });
                 </script>
-            @endif
+                @endif
             
-            @if(session('error'))
+                 @if(session('error'))
                 <script>
                     Swal.fire({
                         icon: 'error',
@@ -334,34 +334,34 @@
                         timer: 3000 // Set the timer for how long you want the message to be displayed
                     });
                 </script>
-            @endif
+                @endif
             <script>
-           document.getElementById('contact-form').addEventListener('submit', function(event) {
-        // Reference to the submit button
-        const submitBtn = document.getElementById('submitBtn');
+                    document.getElementById('contact-form').addEventListener('submit', function(event) {
+                    // Reference to the submit button
+                    const submitBtn = document.getElementById('submitBtn');
 
-        // Check if the button is already disabled
-        if (submitBtn.getAttribute('disabled')) {
-            // If the button is disabled, prevent the form submission
-            event.preventDefault();
-        } else {
-            // Disable the submit button
-            submitBtn.setAttribute('disabled', 'disabled');
+                    // Check if the button is already disabled
+                    if (submitBtn.getAttribute('disabled')) {
+                        // If the button is disabled, prevent the form submission
+                        event.preventDefault();
+                    } else {
+                        // Disable the submit button
+                        submitBtn.setAttribute('disabled', 'disabled');
 
-            // Change the button text to 'Loading...'
-            submitBtn.innerHTML = submitBtn.getAttribute('data-loading-text');
-        }
-    });
+                        // Change the button text to 'Loading...'
+                        submitBtn.innerHTML = submitBtn.getAttribute('data-loading-text');
+                    }
+                });
 
-    // Optional: If you want to revert the button text after page redirect, handle the "beforeunload" event
-    window.addEventListener('beforeunload', function() {
-        const submitBtn = document.getElementById('submitBtn');
-        // Revert the button text to the original
-        submitBtn.innerHTML = submitBtn.getAttribute('data-original-text');
-    });
+                        // Optional: If you want to revert the button text after page redirect, handle the "beforeunload" event
+                        window.addEventListener('beforeunload', function() {
+                            const submitBtn = document.getElementById('submitBtn');
+                            // Revert the button text to the original
+                            submitBtn.innerHTML = submitBtn.getAttribute('data-original-text');
+                        });
             </script>
             </form>
-            <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-default">We look forward to establishing a close partnership with you and providing excellent service and support. If you have any questions or need assistance, feel free to reach out to our customer service team.</p>
+            <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-default">@lang('messages.contact_caption2')</p>
 
             </div>
         </div>

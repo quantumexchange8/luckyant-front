@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="uk-position-center">
-                                <img class="uk-animation-slide-top-small" src="{{asset('img/in-slideshow-image-5-01.png')}}" data-src="{{asset('img/in-slideshow-image-5-01.png')}}" alt="slideshow-image" width="862" height="540" data-uk-img>
+                                <img class="uk-animation-slide-top-small" src="{{asset('img/in-slideshow-image-5-01.png')}}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="uk-position-center">
-                                <img class="uk-animation-slide-top-small" src="{{asset('img/in-slideshow-image-6-01.png')}}" data-src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
+                                <img class="uk-animation-slide-top-small" src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
 
 <!-----------------------Preferred Partner------------------------------->
 
-<div class="uk-section uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-offset-top-40 in-profit-14" data-src="img/in-section-profit-14.jpg" data-uk-img>
+<div class="uk-section uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-offset-top-40 in-profit-14" style="background-image: url('{{ asset('img/in-section-profit-14.jpg') }}');">
     <div class="uk-container uk-margin-bottom">
         <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
             <div class="uk-width-1-1">
@@ -140,19 +140,19 @@
             </div>
           
             <div>
-                <img src="#" data-src="{{asset('img/in-profit-icon-2.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-2.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.diverse_tools')</h4>
             </div>
             <div>
-                <img src="#" data-src="{{asset('img/in-profit-icon-8.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-8.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.unparalleled_trading')</h4>
             </div>
             <div>
-                <img src="#" data-src="{{asset('img/in-profit-icon-10.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-10.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.globally_licensed')</h4>
             </div>
             <div>
-                <img src="#" data-src="{{asset('img/in-profit-icon-9.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-9.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.forex_education')</h4>
             </div>
         </div>
@@ -339,7 +339,7 @@
 
 <!----------------------Why Choose Us-------------------------------------->
 <div class="uk-section uk-padding-large in-padding-large-vertical@s in-profit-9">
-    <div class="uk-container uk-background-contain uk-background-bottom-right" data-uk-img><!-- data-src="img/in-profit-mockup-2.png"  -->
+    <div class="uk-container uk-background-contain uk-background-bottom-right" data-uk-img>
         <div class="uk-grid" data-uk-grid>
             <div class="uk-width-1-1 in-offset-bottom-20">
                 <h2 class="uk-margin-medium-bottom text-align-center">@lang('messages.choose_us')</h2>
@@ -347,33 +347,33 @@
         </div>
         <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-5.svg')}}" data-src="{{asset('img/in-profit-icon-5.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-5.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue ">@lang('messages.swift_execution')</h4>
                 <p class="uk-text-grey uk-text-justify">@lang('messages.swiftexecution_caption')
                 </p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-6.svg')}}" data-src="{{asset('img/in-profit-icon-6.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-6.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.diverse_payment') </h4>
                 <p class="uk-text-grey uk-text-justify">@lang('messages.diversepayment_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-3.svg')}}" data-src="{{asset('img/in-profit-icon-3.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-3.svg')}}"alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.industry_leading')</h4>
                 <p class="uk-text-grey uk-text-justify">@lang('messages.industry_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-2.svg')}}" data-src="{{asset('img/in-profit-icon-2.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-2.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.copy_trading')</h4>
                 <p class="uk-text-grey uk-text-justify">@lang('messages.copytrading_desc')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-1.svg')}}" data-src="{{asset('img/in-profit-icon-1.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-1.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.24/7_cs')</h4>
                 <p class="uk-text-grey uk-text-justify">@lang('messages.24/7cs_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-4.svg')}}" data-src="{{asset('img/in-profit-icon-4.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-4.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue">@lang('messages.trading_mode')</h4>
                 <p class="uk-text-grey uk-text-justify">@lang('messages.tradingmode_caption')</p>
             </div>

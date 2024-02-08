@@ -7,7 +7,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <h1 class="uk-text-superlarge uk-padding uk-text-white uk-visible@m">Cryptocurrency CFDs</h1>
+                <h1 class="uk-text-superlarge uk-padding uk-text-white uk-visible@m">@lang('messages.cryptocurrency_cfd')</h1>
                 <h1 class="uk-text-superlarge uk-padding uk-text-white uk-hidden@m">CFDs</h1>
             </div>
         </div>
@@ -20,7 +20,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
                 <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
                 </ul>
             </div>
         </div>
@@ -38,24 +38,24 @@
                       </div>
                     </div>
                     <div class="uk-width-expand">
-                        <h2>Cryptocurrency CFDs</h2>
-                        <p class="uk-text-justify">Cryptocurrency CFDs Through our industry-leading MetaTrader 5 platform, you can easily engage in cryptocurrency CFD trading, and you can also choose from our product range, including U.S. stocks and gold. Please see the complete product table below for average and minimum spreads for cryptocurrency CFDs. What are Cryptocurrency CFDs? Cryptocurrency Contracts for Difference (CFDs) are a way for traders to go long or short on digital assets. It allows traders to use leverage to magnify trades while also increasing risk exposure. By trading cryptocurrency CFDs, traders can increase capital efficiency and have profit opportunities in both rising and falling markets.</p>
-                        <p class="uk-text-justify">Metal We offer a leverage ratio of 500:1, allowing you to flexibly trade metal spot prices, including gold or silver against the U.S. Dollar or Australian Dollar currency pairs. Opening a trading account with Lucky Ant grants you access to global market prices for Gold CFDs and Silver CFDs. Trading metal CFDs seamlessly with a globally regulated, award-winning broker.</p>
+                        <h2>@lang('messages.cryptocurrency_cfd')</h2>
+                        <p class="uk-text-justify">@lang('messages.cfd_caption1')</p>
+                        <p class="uk-text-justify">@lang('messages.cfd_caption2')</p>
                         
-                        <p>Advantages of trading metals:</p>
+                        <p>@lang('messages.cfd_advantage')</p>
                         <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
                          
                             <div>
                                 <ul class="uk-list in-list-check">
-                                    <li> Conduct long and short trades regardless of market direction, maximizing trading opportunities</li>
-                                    <li>Robust trading platforms like MetaTrader 5 (MT5) provide real-time gold and silver news and charts. Trade anytime, anywhere, across multiple devices</li>
-                                    <li>Rich educational resources and trading tools to refine your trading strategy</li>
+                                    <li> @lang('messages.cfd_advantage1')</li>
+                                    <li>@lang('messages.cfd_advantage2')</li>
+                                    <li>@lang('messages.cfd_advantage3')</li>
                                 </ul>
                             </div>
                             <div class="in-margin-top-10@s in-margin-bottom-30@s">
                                 <ul class="uk-list in-list-check">
-                                    <li>Hedge risks - use high-value assets such as gold and silver to hedge your investment risks </li>
-                                    <li>  Benefit from low margin, low-cost trading without compromising execution efficiency</li>
+                                    <li>@lang('messages.cfd_advantage4')</li>
+                                    <li>@lang('messages.cfd_advantage5')</li>
                                 
                                 </ul>
                             </div>
@@ -139,8 +139,8 @@
                                 <h2 class="uk-text-blue">Open Your Account Now!</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="#">Open Real Account</a>
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">Open Demo Account</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="#">@lang('messages.real_account')</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,7 @@
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
-                <h1 class="uk-text-superlarge uk-padding uk-text-white">Stock</h1>
+                <h1 class="uk-text-superlarge uk-padding uk-text-white">@lang('messages.stock')</h1>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
                 <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
                 </ul>
             </div>
         </div>
@@ -35,22 +35,19 @@
                       </div>
                     </div>
                     <div class="uk-width-expand">
-                        <h2>Stock</h2>
-                        <p class="uk-text-justify">The stock market is the gathering place for securities traders. To engage in buying and selling stocks, futures, bonds, and options, all you need is a trading account. Therefore, traders can participate in the most successful publicly-listed companies in various industries, using derivative financial instruments and futures contracts to mitigate capital risks.</p>
-                        <p class="uk-text-justify">U.S. stock exchanges are highly popular (such as the New York Stock Exchange, NASDAQ, New York Mercantile Exchange, Global Futures Trading System, etc.), and other prominent exchanges include the Tokyo Stock Exchange, London Stock Exchange (LSE), and Hong Kong Stock Exchange (HKEX).</p>
-                        <p class="uk-text-justify"> With the development of modern technology and the internet, traders can use versatile computer software for securities trading, known as trading platforms. On such software, traders can place orders to buy or sell securities, and then brokers execute the trades on behalf of the traders at the stock exchange. The MetaTrader 5 trading platform provides advanced features for global trading, supporting technical analysis, algorithmic trading, and group trading.</p>
-                        <p class="read-more-content uk-text-justify">
-                            How is Contract for Difference (CFD) Trading Different from Stock Trading? The primary difference between Contract for Difference (CFD) trading and stock trading is that you don't actually own the underlying asset, i.e., the actual stock. As the name suggests, in CFD trading, you don't physically hold the asset or instrument you're trading. However, if the market moves in your direction, you still have the potential to profit; conversely, if the market moves in the opposite direction, you may incur losses.
-                        </p>
-                        <p class="read-more-content uk-text-justify">
-                            CFDs are also a form of leveraged product, and margin requirements mean you only need to deposit a fraction of the total trade value as margin to open a CFD position. In stock trading, you typically need to buy the entire required shares. Leverage comes with potential risks, so understanding the risks of leverage is crucial before trading.
-                        </p>
-                        <p class="read-more-content uk-text-justify">Commodities Trading Contracts for Difference (CFDs) in commodities is an ideal choice for diversifying portfolios and hedging risks. We offer a broad portfolio of financial products, combined with real-time technology and commodity prices, to help you gain an edge. Choosing to trade commodity CFDs provides you with global commodity prices, enjoying advantages such as high-speed execution, low slippage, deep liquidity, and narrow spreads.</p>
-                        <p class="read-more-content uk-text-justify">As a regulated brokerage service provider, we support you in trading commodity CFDs, covering various global commodities such as gold (XAU), silver (XAG), and crude oil (CL, WTI). Meanwhile, we offer diverse asset categories and comprehensive risk management tools, enabling you to navigate the markets with ease.</p>
+                        <h2>@lang('messages.stock')</h2>
+                        <p class="uk-text-justify">@lang('messages.stock_caption1')</p>
+                        <p class="uk-text-justify">@lang('messages.stock_caption2')</p>
+                        <p class="uk-text-justify">@lang('messages.stock_caption3')</p>
+                        <p class="read-more-content uk-text-justify">@lang('messages.stock_caption4')</p>
+                        <p class="read-more-content uk-text-justify">@lang('messages.stock_caption5')</p>
+                        <p class="read-more-content uk-text-justify">@lang('messages.stock_caption6')</p>
+                        <p class="read-more-content uk-text-justify">@lang('messages.stock_caption7')</p>
                         <a class="read-more-button uk-button uk-button-text " href="#">Read More..</a>
                         @section('scripts')
                         <script>
                             $(document).ready(function() {
+                               
                                 $('.read-more-content').hide();
                         
                                 $('.read-more-button').click(function() {
@@ -68,23 +65,23 @@
                             });
                         </script>
                         @endsection
-                        <p class="uk-text-grey">Advantages of commodity trading:</p>
+                        <p class="uk-text-grey">@lang('messages.advantage_commodity')</p>
                         <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
                          
                             <div>
                                 <ul class="uk-list in-list-check">
-                                    <li> Leverage up to 500:1</li>
-                                    <li>Choose from a wide range of commodities, including energy, metals, and agricultural products</li>
-                                    <li>24/5 freely enter and exit trades</li>
-                                    <li>Trade in any market direction - go short or long, maximizing trading opportunities while minimizing risks</li>
+                                    <li> @lang('messages.advantage_commodity1')</li>
+                                    <li>@lang('messages.advantage_commodity2')</li>
+                                    <li>@lang('messages.advantage_commodity3')</li>
+                                    <li>@lang('messages.advantage_commodity4')</li>
                               
                                 </ul>
                             </div>
                             <div class="in-margin-top-10@s in-margin-bottom-30@s">
                                 <ul class="uk-list in-list-check">
-                                    <li>No price manipulation and no requotes</li>
-                                    <li>Hedge risks - use high-value assets for investment risk hedging, such as gold (XAU), silver (XAG), and crude oil (WTI/CL)</li>
-                                    <li>Low margin, low-cost trading, ensuring execution efficiency. </li>
+                                    <li>@lang('messages.advantage_commodity5')</li>
+                                    <li>@lang('messages.advantage_commodity6')</li>
+                                    <li>@lang('messages.advantage_commodity7')</li>
                                 
                                 </ul>
                             </div>
@@ -179,8 +176,8 @@
                                 <h2 class="uk-text-blue">Open Your Account Now!</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">Open Real Account</a>
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">Open Demo Account</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">@lang('messages.real_account')</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                             </div>
                         </div>
                     </div>

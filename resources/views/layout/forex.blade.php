@@ -18,7 +18,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
                 <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
                 </ul>
             </div>
         </div>
@@ -36,30 +36,30 @@
                       </div>
                     </div>
                     <div class="uk-width-expand">
-                        <h2>Forex</h2>
-                        <p class="uk-text-justify">Forex offering you the fastest, most liquid, and captivating way to invest in the global forex trading market. Forex is an interbank foreign exchange market with trading volumes surpassing all other financial markets. Through the global information network, forex trading allows currency buying and selling operations around the clock, open not only to banks but also to retail traders. Speculation is the core principle of profiting from the forex market – buying low and selling high.</p>
-                        <p class="uk-text-justify">The most popular forex currencies include USD (U.S. Dollar), JPY (Japanese Yen), GBP (British Pound), EUR (Euro), CHF (Swiss Franc), CAD (Canadian Dollar), and AUD (Australian Dollar). They form major currency pairs such as EUR/USD, GBP/USD, USD/JPY, and USD/CHF.</p>
-                        <p class="uk-text-justify"> Traders can access the forex market through forex brokers. All that's needed is a computer (or smartphone/tablet) with an internet connection and the free-to-download MetaTrader 5 platform. Forex trading orders can be directly sent from the platform. Based on fundamental and technical analysis, traders attempt to predict the trend of currency prices, buying at low prices and selling as prices rise. The trader's profit equals the difference between the buying and selling prices.</p>
-                        <p>Unique advantages of forex trading:</p>
+                        <h2>@lang('messages.forex')</h2>
+                        <p class="uk-text-justify">@lang('messages.forex_caption1')</p>
+                        <p class="uk-text-justify">@lang('messages.forex_caption2')</p>
+                        <p class="uk-text-justify">@lang('messages.forex_caption3')</p>
+                        <p>@lang('messages.forex_caption4')</p>
                         <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
                          
                             <div>
                                 <ul class="uk-list in-list-check">
-                                    <li> Slim spreads trading</li>
-                                    <li>Leverage up to 500:1</li>
-                                    <li>Abundant choices of currency pairs</li>
-                                    <li>24/5 market availability</li>
-                                    <li>Flexible trading 24/5</li>
-                                    <li>Cutting-edge tools for decision support</li>
+                                    <li> @lang('messages.forex_advantage1')</li>
+                                    <li>@lang('messages.forex_advantage2')</li>
+                                    <li>@lang('messages.forex_advantage3')</li>
+                                    <li>@lang('messages.forex_advantage4')</li>
+                                    <li>@lang('messages.forex_advantage5')</li>
+                                    <li>@lang('messages.forex_advantage6')</li>
                                 </ul>
                             </div>
                             <div class="in-margin-top-10@s in-margin-bottom-30@s">
                                 <ul class="uk-list in-list-check">
-                                    <li>Award-winning multilingual customer support</li>
-                                    <li>No price manipulation</li>
-                                    <li>Low margin, low-cost convenient trading</li>
-                                    <li>High-speed execution on Lucky Ant servers</li>
-                                    <li>Adaptive to market trends</li>
+                                    <li>@lang('messages.forex_advantage7')</li>
+                                    <li>@lang('messages.forex_advantage8')</li>
+                                    <li>@lang('messages.forex_advantage9')</li>
+                                    <li>@lang('messages.forex_advantage10')</li>
+                                    <li>@lang('messages.forex_advantage11')</li>
                                 
                                 </ul>
                             </div>
@@ -150,8 +150,8 @@
                                 <h2 class="uk-text-blue">Open Your Account Now!</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">Open Real Account</a>
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">Open Demo Account</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">@lang('messages.real_account')</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                             </div>
                         </div>
                     </div>

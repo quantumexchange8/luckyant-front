@@ -8,7 +8,7 @@
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
-                <h1 class="uk-text-superlarge uk-padding uk-text-white">Indices</h1>
+                <h1 class="uk-text-superlarge uk-padding uk-text-white">@lang('messages.indices')</h1>
             </div>
         </div>
     </div>
@@ -19,7 +19,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-flex uk-flex-right">
                 <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
                 </ul>
             </div>
         </div>
@@ -37,22 +37,22 @@
                       </div>
                     </div>
                     <div class="uk-width-expand">
-                        <h2>Indices</h2>
-                        <p class="uk-text-justify">Indices Offering Contracts for Difference (CFDs) on major global stock indices, providing you with investment opportunities in major global stock indices and competitive leverage. Trading index CFDs online is an excellent way to participate in the world's top stock markets. We collaborate with major banks and non-banking financial institutions, ensuring a deep liquidity pool to guarantee you the best market prices and ultra-low latency order execution.</p>
+                        <h2>@lang('messages.indices')</h2>
+                        <p class="uk-text-justify">@lang('messages.indices_caption')</p>
                          
-                        <p>Advantages of trading Index CFDs:</p>
+                        <p>@lang('messages.advantage_index')</p>
                         <div class="uk-grid uk-child-width-1-1 uk-child-width-1-2@m">
                          
                             <div>
                                 <ul class="uk-list in-list-check">
-                                    <li> Trading Index CFDs allows you to speculate on the movements of the underlying indices without actually    owning any stocks.</li>
-                                    <li>When trading indices, you can participate in both rising and falling price movements, providing you with more trading opportunities.</li>
+                                    <li>@lang('messages.advantage_index1')</li>
+                                    <li>@lang('messages.advantage_index2')</li>
                                 </ul>
                             </div>
                             <div>
                                 <ul class="uk-list in-list-check">
-                                    <li>Competitive leverage means you can increase your exposure with a smaller investment.</li>
-                                    <li>Remember that CFD indices are a leveraged product, meaning you may also magnify your losses.</li>
+                                    <li>@lang('messages.advantage_index3')</li>
+                                    <li>@lang('messages.advantage_index4')</li>
                                 </ul>
                             </div>
 
@@ -262,8 +262,8 @@
                                 <h2 class="uk-text-blue">Open Your Account Now!</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="">Open Real Account</a>
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">Open Demo Account</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="">@lang('messages.real_account')</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                             </div>
                         </div>
                     </div>

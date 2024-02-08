@@ -42,7 +42,7 @@
                         </li>
                         <li class="{{ request()->is('about') ? 'uk-active' : '' }}"><a href="{{ route('about') }}">@lang('messages.about_us')</a>
                         </li>
-                        <li class="{{ request()->is('market/*') ? 'uk-active' : '' }}"><a href="#">Market<span data-uk-navbar-parent-icon></span></a>
+                        <li class="{{ request()->is('market/*') ? 'uk-active' : '' }}"><a href="#">@lang('messages.market')<span data-uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li class="{{ request()->is('forex') ? 'uk-active' : '' }}"><a href="{{ route('forex') }}">Forex</a></li>
@@ -52,7 +52,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="{{ request()->is('trading') ? 'uk-active' : '' }}"><a href="{{ route('trading') }}">Trading Platform</a>
+                        <li class="{{ request()->is('trading') ? 'uk-active' : '' }}"><a href="{{ route('trading') }}">@lang('messages.trading_platform')</a>
                         </li>
                         <li class="{{ request()->is('copytrading') ? 'uk-active' : '' }}"><a href="{{ route('copytrading') }}">@lang('messages.copy_trading')</a>
                         <li class="{{ request()->is('contact') ? 'uk-active' : '' }}"><a href="{{ route('contact') }}">Contact Us</a>
