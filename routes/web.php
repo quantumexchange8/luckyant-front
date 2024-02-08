@@ -25,16 +25,16 @@ Route::get('stock',[UserController::class, 'stock'])->name('stock');
 Route::get('CFDs',[UserController::class, 'cfd'])->name('cfd');
 Route::get('indices',[UserController::class, 'indices'])->name('indices');
 });
-Route::get('copytrading',[UserController::class, 'copytrading'])->name('copytrading');
+Route::get('copy-trading',[UserController::class, 'copytrading'])->name('copytrading');
 Route::get('about',[UserController::class, 'about'])->name('about');
 Route::get('error',[UserController::class, 'error'])->name('error');
-Route::get('terms',[UserController::class, 'terms'])->name('terms');
+Route::get('terms-policies',[UserController::class, 'terms'])->name('terms');
 //Route::post('contact', [CountryController::class, 'storeContact'])->name('contact.store');
 Route::get('contact', [UserController::class, 'contact'])->name('contact');
-Route::get('privacy', [UserController::class, 'privacy'])->name('privacy');
-Route::get('copytradepolicy', [UserController::class, 'copytradepolicy'])->name('copytradepolicy');
-Route::get('disclosure', [UserController::class, 'disclosure'])->name('disclosure');
+Route::get('privacy-policy', [UserController::class, 'privacy'])->name('privacy');
+Route::get('copy-trading-terms-policy', [UserController::class, 'copytradepolicy'])->name('copytradepolicy');
+Route::get('disclosure-risk-warning', [UserController::class, 'disclosure'])->name('disclosure');
 Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
-Route::get('customer', [UserController::class, 'customer'])->name('customer');
+Route::get('customer-agreement', [UserController::class, 'customer'])->name('customer');
 
 

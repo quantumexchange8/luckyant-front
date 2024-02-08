@@ -6,7 +6,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
-                <h1>Terms and <span class="in-highlight">Privacy</span></h1>
+                <h1>Terms and <span class="in-highlight">Policies</span></h1>
             </div>
             <ul class="uk-list uk-list-divider">
               <li>
