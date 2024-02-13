@@ -161,7 +161,7 @@
 <!-----------------------End of Preferred Partner------------------------>
 
 <!----------------------Download apps-------------------------------------->
-<div class="uk-section uk-padding-large in-padding-large-vertical@s in-profit-12">
+<div class="uk-section uk-padding-large in-padding-vertical@s in-profit-12">
     <div class="uk-container">
         <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-1-2@m uk-text-center">
@@ -170,7 +170,7 @@
                         <!-- TradingView Widget BEGIN -->
                             <div class="tradingview-widget-container">
                                 <div class="tradingview-widget-container__widget"></div>
-                                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="uk-text-red">Track all markets on TradingView</span></a></div>
+                                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="uk-text-red">@lang('messages.track_TradingView')</span></a></div>
                                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
                                             {
                                                 "colorTheme": "light",
@@ -334,12 +334,7 @@
             </div>
         </div>
     </div>
-</div>
-<!----------------------End of Download apps------------------------------->
-
-<!----------------------Why Choose Us-------------------------------------->
-<div class="uk-section uk-padding-large in-padding-large-vertical@s in-profit-9">
-    <div class="uk-container uk-background-contain uk-background-bottom-right" data-uk-img>
+    <div class="uk-container uk-background-contain uk-background-bottom-right uk-padding" data-uk-img>
         <div class="uk-grid" data-uk-grid>
             <div class="uk-width-1-1 in-offset-bottom-20">
                 <h2 class="uk-margin-medium-bottom text-align-center">@lang('messages.choose_us')</h2>
@@ -380,7 +375,8 @@
         </div>
     </div>
 </div>
-<!----------------------End of Why Choose Us------------------------------->
+<!----------------------End of Download apps------------------------------->
+
 
 <!---------------Contact Us---------------------------------->
 <div class="uk-section">
@@ -390,10 +386,10 @@
                 <div class="uk-card uk-card-default1 uk-card-body uk-box-shadow-medium uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
-                            <h3 class="uk-text-blue">Turn Your Dream into Realities - Connect with Us Now!</h3>
+                            <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
                         </div>
                         <div class="uk-width-auto">
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">Contact Us</a>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">@lang('messages.contact_us')</a>
                         </div>
                     </div>
                 </div>

@@ -1,17 +1,7 @@
 @extends('master.master')
 
 @section('content')
-<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb">
-    <div class="uk-container">
-        <div class="uk-grid">
-            <div class="uk-width-1-1 uk-flex uk-flex-right">
-                <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!-------------------------Company Overview--------------------------->
 <div class="uk-section">
@@ -138,10 +128,10 @@
                 <div class="uk-card uk-card-default1 uk-box-shadow-medium uk-card-body uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
-                            <h3 class="uk-text-blue">Turn Your Dream into Realities - Connect with Us Now!</h3>
+                            <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
                         </div>
                         <div class="uk-width-auto">
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">Contact Us</a>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">@lang('messages.contact_us')</a>
                         </div>
                     </div>
                 </div>
@@ -260,11 +250,11 @@
                     <div class="uk-card-body">
                         <div class="uk-grid uk-flex-middle" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-expand@m">
-                                <h2 class="uk-text-blue">Open Your Account Now!</h2>
+                                <h2 class="uk-text-blue">@lang('messages.open_your_account')</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">Open Real Account</a>
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">Open Demo Account</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">@lang('messages.real_account')</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                             </div>
                         </div>
                     </div>

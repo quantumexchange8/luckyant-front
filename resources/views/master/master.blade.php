@@ -18,6 +18,7 @@
     <link rel="preload" href="{{asset('js/vendors/uikit.min.js')}}" as="script">
     <link rel="preload" href="{{asset('js/utilities.min.js')}}" as="script">
     <link rel="preload" href="{{asset('js/config-theme.js')}}" as="script">
+
     <!-- Add this to the head section of your HTML file -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
@@ -27,7 +28,12 @@
     <script src="{{asset('js/vendors/uikit.min.js')}}"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     
-
+    <script>
+        window.translations = {
+            login: "{{ __('messages.login') }}",
+      
+        };
+    </script>
     <!-- favicon -->
     <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
     <!-- touch icon -->

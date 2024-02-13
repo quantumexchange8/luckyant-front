@@ -27,34 +27,33 @@
             </div>
         </div>
     </div>
-    
-    
+
     <div class="uk-section uk-padding-remove-vertical">
         <nav class="uk-navbar-container" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
             <div class="uk-container" data-uk-navbar>
         
                 <div class="uk-navbar-left uk-width-expand uk-flex uk-flex-between uk-flex-nowrap">
                     <a class="uk-navbar-item uk-logo" href="{{route('index')}}">
-                        <img src="{{asset('img/Logo/logo.svg')}}" data-src="{{asset('img/Logo/logo.svg')}}" alt="logo" width="130" height="36" data-uk-img>
+                        <img src="{{asset('img/Logo/logo.svg')}}"alt="logo" width="130" height="36" data-uk-img>
                     </a>
                     <ul class="uk-navbar-nav uk-visible@m">
                         <li class="{{ request()->is('/') ? 'uk-active' : '' }}"><a href="{{ route('index') }}">@lang('messages.home')</a>
                         </li>
-                        <li class="{{ request()->is('about') ? 'uk-active' : '' }}"><a href="{{ route('about') }}">@lang('messages.about_us')</a>
+                        <li class="{{ request()->is('about-us') ? 'uk-active' : '' }}"><a href="{{ route('about') }}">@lang('messages.about_us')</a>
                         </li>
                         <li class="{{ request()->is('market/*') ? 'uk-active' : '' }}"><a href="#">@lang('messages.market')<span data-uk-navbar-parent-icon></span></a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="{{ request()->is('forex') ? 'uk-active' : '' }}"><a href="{{ route('forex') }}">Forex</a></li>
-                                    <li class="{{ request()->is('stock') ? 'uk-active' : '' }}"><a href="{{ route('stock') }}">Stock</a></li>
-                                    <li class="{{ request()->is('cfd') ? 'uk-active' : '' }}"><a href="{{ route('cfd') }}">Cryptocurrency CFDs</a></li>
-                                    <li class="{{ request()->is('indices') ? 'uk-active' : '' }}"><a href="{{ route('indices') }}">Indices</a></li>
+                                    <li class="{{ request()->is('forex') ? 'uk-active' : '' }}"><a href="{{ route('forex') }}">@lang('messages.forex')</a></li>
+                                    <li class="{{ request()->is('stock') ? 'uk-active' : '' }}"><a href="{{ route('stock') }}">@lang('messages.stock')</a></li>
+                                    <li class="{{ request()->is('cfd') ? 'uk-active' : '' }}"><a href="{{ route('cfd') }}">@lang('messages.cryptocurrency_cfd')</a></li>
+                                    <li class="{{ request()->is('indices') ? 'uk-active' : '' }}"><a href="{{ route('indices') }}">@lang('messages.indices')</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="{{ request()->is('trading') ? 'uk-active' : '' }}"><a href="{{ route('trading') }}">@lang('messages.trading_platform')</a>
+                        <li class="{{ request()->is('trading-platform') ? 'uk-active' : '' }}"><a href="{{ route('trading') }}">@lang('messages.trading_platform')</a>
                         </li>
-                        <li class="{{ request()->is('copytrading') ? 'uk-active' : '' }}"><a href="{{ route('copytrading') }}">@lang('messages.copy_trading')</a>
+                        <li class="{{ request()->is('copy-trading') ? 'uk-active' : '' }}"><a href="{{ route('copytrading') }}">@lang('messages.copy_trading')</a>
                         <li class="{{ request()->is('contact') ? 'uk-active' : '' }}"><a href="{{ route('contact') }}">@lang('messages.contact_us')</a>
                         </li>
                     </ul>
@@ -63,8 +62,8 @@
                 <div class="uk-navbar-right uk-width-auto">
                     <div class="uk-navbar-item uk-visible@m in-optional-nav">
                         <div>
-                            <a href="{{route('error')}}" class="uk-button uk-button-link">Login</a>
-                            <a href="{{route('error')}}" class="uk-button uk-button-link">Sign up</a>
+                            <a href="{{route('error')}}" class="uk-button uk-button-link">@lang('messages.login')</a>
+                            <a href="{{route('error')}}" class="uk-button uk-button-link">@lang('messages.signup')</a>
                         
                         </div>
                     </div>
@@ -72,4 +71,7 @@
             </div>
         </nav>
     </div>
+  
+  
+    
 </header>

@@ -3,32 +3,19 @@
 @section('content')
 
 <!-------------------Copy trading description-------------------->
-<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover uk-background-bottom-center in-padding-large-vertical@s in-profit-3"  style="background-image: url('{{asset('img/copytrading-02.png')}}');" data-uk-img>
+<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover uk-background-bottom-center in-padding-large-vertical@s in-profit-3" style="background-image: url('{{ asset('img/copytrading-02.png') }}');" data-uk-img>
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-grid-large" data-uk-grid>
             <div class="uk-width-3-5@m">
                 <h2>@lang('messages.copytrading_title')</h2>
                 <p class="uk-text-justify uk-text-default uk-text-white">@lang('messages.copytrading_caption')</p>
                 <p class="uk-text-justify uk-text-default uk-text-white">@lang('messages.copytrading_caption1')</p>
-            
             </div>
-      
         </div>
     </div>
 </div>
 <!-------------------End of Copy trading description----------->
-<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb">
-    <div class="uk-container">
-        <div class="uk-grid">
-            <div class="uk-width-1-1 uk-flex uk-flex-right">
-                <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
-          
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!-------------------Copy trading advantages-------------------->
 <div class="uk-section">
@@ -157,10 +144,10 @@
                 <div class="uk-card uk-card-default1 uk-box-shadow-medium uk-card-body uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
-                            <h3 class="uk-text-blue">Turn Your Dream into Realities - Connect with Us Now!</h3>
+                            <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
                         </div>
                         <div class="uk-width-auto">
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">Contact Us</a>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">@lang('messages.contact_us')</a>
                         </div>
                     </div>
                 </div>

@@ -14,17 +14,7 @@
     </div>
 </div>
 <!---------------End of Title Header-------------------------->
-<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb">
-    <div class="uk-container">
-        <div class="uk-grid">
-            <div class="uk-width-1-1 uk-flex uk-flex-right">
-                <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-----------------Indices Description----------------------->
 <div class="uk-section">
     <div class="uk-container">
@@ -75,10 +65,10 @@
                 <div class="uk-card uk-card-default1 uk-box-shadow-medium uk-card-body uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
-                            <h3 class="uk-text-blue">Turn Your Dream into Realities - Connect with Us Now!</h3>
+                            <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
                         </div>
                         <div class="uk-width-auto">
-                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">Contact Us</a>
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">@lang('messages.contact_us')</a>
                         </div>
                     </div>
                 </div>
@@ -93,13 +83,13 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1@m uk-text-center">
-                <h1>Market Overview</h1>
+                <h1>@lang('messages.market_overview')</h1>
 
                 <div class="uk-flex uk-flex-center">
                 <!-- TradingView Widget BEGIN -->
                 <div class="tradingview-widget-container">
                     <div class="tradingview-widget-container__widget"></div>
-                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="uk-text-small uk-text-meta uk-text-red">Track all markets on TradingView</span></a></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="uk-text-small uk-text-meta uk-text-red">@lang('messages.track_TradingView')</span></a></div>
                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
                             {
                                 "colorTheme": "light",
@@ -259,7 +249,7 @@
                     <div class="uk-card-body">
                         <div class="uk-grid uk-flex-middle" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-expand@m">
-                                <h2 class="uk-text-blue">Open Your Account Now!</h2>
+                                <h2 class="uk-text-blue">@lang('messages.open_your_account')</h2>
                             </div>
                             <div class="uk-width-auto">
                                 <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="">@lang('messages.real_account')</a>

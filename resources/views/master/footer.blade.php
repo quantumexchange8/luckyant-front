@@ -55,7 +55,7 @@
                 </div>
                 <div class="uk-width-5-6@m uk-margin-bottom">
                     <div class="footer-warning in-margin-top-20@s">
-                        <h5 class="uk-text-small uk-text-uppercase"><span>Risk Warning</span></h5>
+                        <h5 class="uk-text-small uk-text-uppercase"><span>@lang('messages.risk_warning_title')</span></h5>
                         <p class="uk-text-small">@lang('messages.risk_warning') 
                         </p>
                         <p class="uk-text-small">

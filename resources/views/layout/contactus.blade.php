@@ -1,22 +1,11 @@
 @extends('master.master')
 @section('content')
 
-<div class="uk-section uk-padding-remove-vertical in-profit-breadcrumb">
-    <div class="uk-container">
-        <div class="uk-grid">
-            <div class="uk-width-1-1 uk-flex uk-flex-right">
-                <ul class="uk-breadcrumb">
-                    <li><a href="{{ route('index') }}">@lang('messages.home')</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center in-contact-6">
             <div class="uk-width-4-5">
-                <iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
+                <iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.72069145314686!2d-104.99677136031374!3d39.75018334203433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78db3af48de9%3A0x39314ec455dc29fc!2sPostNet!5e0!3m2!1sen!2smy!4v1707819483877!5m2!1sen!2smy">
                 </iframe>
             </div>
             <div class="uk-width-4-5@m">

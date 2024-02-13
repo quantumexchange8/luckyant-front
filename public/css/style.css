@@ -4352,7 +4352,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #463A5C;
+  background: #FFFFFF;
   /* 3 */
   overflow-y: auto;
 }
@@ -5006,7 +5006,7 @@ select.uk-form-width-xsmall {
 .uk-grid-large > .uk-grid-margin,
 .uk-grid-row-large > .uk-grid-margin,
 * + .uk-grid-margin-large {
-  margin-top: 40px;
+  margin-top: 57px;
 }
 
 /* Desktop and bigger */
@@ -24363,4 +24363,11 @@ footer .social-media-list div a .fab:hover {
 
 .uk-flex > .custom-small-screen1 {
   align-items: center;
+}
+/* Styles for small screens (e.g., mobile devices) */
+/* Styles for small screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .uk-section.uk-section-secondary.uk-padding-large.uk-background-cover.uk-background-bottom-center.in-padding-large-vertical\@s.in-profit-3 {
+      background-position-x: calc(60% -  -196px); /* Adjust the value as needed */
+  }
 }

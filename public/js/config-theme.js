@@ -26,14 +26,15 @@
         },
         //---------- 2. Mobile nav button -----------
         theme_mobilenav: function() {
+        
             new MobileNavbar({
-                addonButtons: true,                 // options to use addon buttons, set it "false" if you won't use addon buttons
+                addonButtons: true,
                 buttons: [
                     {
-                        name: 'Log in',             // custom button name
-                        url: 'signin.html',         // custom button url
-                        type: 'primary',            // button type (default, primary, secondary, danger, text)
-                        icon: 'sign-in-alt'         // button icon, you can use all icons from here : https://fontawesome.com/icons?d=gallery&s=solid&m=free
+                        name: window.translations.login,
+                        url: 'signin.html',
+                        type: 'primary',
+                        icon: 'sign-in-alt'
                     },
                 ]
             }).init();
