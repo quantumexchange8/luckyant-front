@@ -317,7 +317,7 @@
                     </div>
                 </div>  
             </div>
-            <div class="uk-width-1-3@l uk-width-1-2@m">
+            <div class="uk-width-1-3@m uk-width-1-1@s uk-margin-remove-bottom" >
                 <h2>@lang('messages.metatrader_title')</h2>
                 <p class="uk-text-justify uk-text-meta uk-text-grey">@lang('messages.metatrader_caption')
                 </p>
@@ -334,7 +334,11 @@
             </div>
         </div>
     </div>
-    <div class="uk-container uk-background-contain uk-background-bottom-right uk-padding" data-uk-img>
+ 
+</div>
+<!----------------------End of Download apps------------------------------->
+<div class="uk-section">
+    <div class="uk-container ">
         <div class="uk-grid" data-uk-grid>
             <div class="uk-width-1-1 in-offset-bottom-20">
                 <h2 class="uk-margin-medium-bottom text-align-center">@lang('messages.choose_us')</h2>
@@ -375,8 +379,6 @@
         </div>
     </div>
 </div>
-<!----------------------End of Download apps------------------------------->
-
 
 <!---------------Contact Us---------------------------------->
 <div class="uk-section">

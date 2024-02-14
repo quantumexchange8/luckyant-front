@@ -6,7 +6,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 uk-text-center uk-margin-medium-bottom">
-                <h1>Terms and <span class="in-highlight">Policies</span></h1>
+                <h1><span class="in-highlight">@lang('messages.terms_policies') </span></h1>
             </div>
             <ul class="uk-list uk-list-divider">
               <li>
@@ -15,10 +15,10 @@
                     <div class="in-icon-wrap circle primary-color">
                       <i class="fas fa-file fa-lg"></i>
                     </div>
-                      <h3 class="uk-margin-top">Customer Agreement</h3>
-                      <p class="uk-text-justify">Read our Customer Agreement in detail to learn about your obligations, rights, and the unmatched trading experience we provide. </p>
+                      <h3 class="uk-margin-top">@lang('messages.customer_agreement')</h3>
+                      <p class="uk-text-justify">@lang('messages.customer_agreement_caption') </p>
                       <ul class="uk-list uk-margin-top">
-                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('customer')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>Customer Agreement</a></li>
+                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('customer')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>@lang('messages.customer_agreement')</a></li>
                       </ul>
                   </div>
                   
@@ -26,10 +26,10 @@
                     <div class="in-icon-wrap circle primary-color">
                       <i class="fas fa-globe fa-lg"></i>
                     </div>
-                      <h3 class="uk-margin-top">Privacy Policy</h3>
-                      <p class="uk-text-justify">Discover how we prioritize and protect your personal information by reading our privacy policy. </p>
+                      <h3 class="uk-margin-top">@lang('messages.privacy_policy')</h3>
+                      <p class="uk-text-justify">@lang('messages.privacy_policy_caption') </p>
                       <ul class="uk-list uk-margin-top">
-                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('privacy')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>Privacy Policy</a></li>
+                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('privacy')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>@lang('messages.privacy_policy')</a></li>
                       </ul>
                   </div>
               </div>
@@ -41,20 +41,20 @@
                     <div class="in-icon-wrap circle primary-color">
                       <i class="fas fa-globe fa-lg"></i>
                     </div>
-                      <h3 class="uk-margin-top">Disclosures and Risk Warning</h3>
-                      <p class="uk-text-justify">To learn more about important information and possible risks, browse our Disclosures and Risk Warning section.</p>
+                      <h3 class="uk-margin-top">@lang('messages.disclosure_riskwarning')</h3>
+                      <p class="uk-text-justify">@lang('messages.disclosure_riskwarning_caption')</p>
                       <ul class="uk-list uk-margin-top">
-                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('disclosure')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>Disclosures and Risk Warning</a></li>
+                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('disclosure')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>@lang('messages.disclosure_riskwarning')</a></li>
                       </ul>
                   </div>
                   <div>
                     <div class="in-icon-wrap circle primary-color">
                       <i class="fas fa-shield-alt fa-lg"></i>
                     </div>
-                      <h3 class="uk-margin-top">Copy Trading Terms and Conditions</h3>
-                      <p class="uk-text-justify">For a thorough explanation of how our platform guarantees a safe and profitable trading experience, explore our Copy Trading Terms & Conditions. </p>
+                      <h3 class="uk-margin-top">@lang('messages.ct_terms_condition')</h3>
+                      <p class="uk-text-justify">@lang('messages.ct_terms_condition_caption') </p>
                       <ul class="uk-list uk-margin-top">
-                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('copytradepolicy')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>Copy Trading Terms and Conditions</a></li>
+                          <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('copytradepolicy')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>@lang('messages.ct_terms_condition')</a></li>
                       </ul>
                   </div>
               </div>
