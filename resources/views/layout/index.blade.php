@@ -40,8 +40,10 @@
                         <div class="uk-grid" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-3-5@l uk-width-4-5@m">
                                 <div class="uk-overlay">
-                                    <h1>@lang('messages.leading_digital')</h1>
-                                    <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible">@lang('messages.leading_description')</p>
+                                    <h1 class="uk-text-darkblue1 uk-hidden@m">@lang('messages.leading_digital')</h1>
+                                    <h1 class="uk-visible@m">@lang('messages.leading_digital')</h1>
+                                    <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible@m">@lang('messages.leading_description')</p>
+                                    <p class="uk-text-darkblue1 uk-text-meta1 uk-text-justify uk-hidden@m">@lang('messages.leading_description')</p>
                                     <div class="in-slideshow-button uk-margin-top">
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
                                         <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">@lang('messages.demo_account')</a>

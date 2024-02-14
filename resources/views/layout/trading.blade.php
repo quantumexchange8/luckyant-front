@@ -217,7 +217,31 @@
 </div>
 <!---------------End of Impressive Features---------->
 
+
+
+<!-------------------------Contact Us-------------------------------------->
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid">
+            <div class="uk-width-1-1 in-card-16">
+                <div class="uk-card uk-card-default1 uk-box-shadow-medium uk-card-body uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
+                    <div class="uk-grid uk-flex-middle" data-uk-grid>
+                        <div class="uk-width-1-1 uk-width-expand@m">
+                            <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
+                        </div>
+                        <div class="uk-width-auto">
+                            <a class="uk-button uk-button-primary uk-border-rounded" href="{{route('contact')}}">@lang('messages.contact_us')</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------End of Open Contact Us------------------------->
+
 <!------------------MetaTrader Account--------------->
+{{--
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center">
@@ -248,6 +272,46 @@
         </div>
     </div>
 </div>
+--}}
+
+
+<div class="uk-section uk-padding-large in-padding-large-vertical@s in-profit-13">
+    <div class="uk-container uk-margin-small-bottom">
+       
+            
+        <div class="uk-grid uk-flex uk-flex-left">
+           
+                <div class="uk-width-3-5@m">
+                <h2>@lang('messages.tailor_metatrader')</h2>
+                </div>
+                <p class="uk-margin-bottom uk-margin-top">@lang('messages.tailor_metatrader_caption')</p>
+            
+        </div>
+        <div class="uk-grid-divider" data-uk-grid>
+            <div class="uk-width-1-3@m">
+                <h3 class="uk-margin-remove-bottom uk-margin-right"><i class="fa-solid fa-desktop uk-text-red"></i> @lang('messages.mt5_desktop')</h3>
+                <p class="uk-margin-top10  uk-text-justify">@lang('messages.mt5_desktop_caption')</p>
+            </div>
+            <div class="uk-width-1-3@m">
+                    <h3 class="uk-margin-remove-bottom uk-margin-right"><i class="fa-solid fa-desktop uk-text-red"></i> @lang('messages.mt5_mobile')</h3>
+                    <p class="uk-margin-top10 uk-text-justify">
+                        @lang('messages.mt5_mobile_caption')
+                    </p>
+            </div>
+            <div class="uk-width-1-3@m">
+                    <h3 class="uk-margin-remove-bottom uk-margin-right"><i class="fa-solid fa-desktop uk-text-red"></i> @lang('messages.mt5_web')</h3>
+                    <p class="uk-margin-top10 uk-text-justify">
+                        @lang('messages.mt5_web_caption')
+                    </p>
+            </div>
+        </div>
+        <div class="uk-grid uk-flex uk-flex-center">
+        <p class="uk-text-center uk-text-blue uk-margin-top">@lang('messages.all_devices')</p>
+        </div>
+        
+    </div>
+</div>
+
 <!----------End of MetaTrader Account--------------->
 
 <!----------Open an Account----------->
@@ -262,7 +326,7 @@
                                 <h2 class="uk-text-blue">@lang('messages.open_your_account')</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">@lang('messages.real_account')</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="#">@lang('messages.real_account')</a>
                                 <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                             </div>
                         </div>

@@ -20,10 +20,10 @@
             <div class="uk-card uk-card-default uk-card-body uk-margin-top">
                 <h5 class="uk-heading-bullet uk-text-uppercase uk-margin-remove-bottom">Content</h5> 
                 <ul class="uk-list">
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#term">Terms & Condition</a></li>
-                    <li><a href="#trading">Online Trading</a></li>
-                    <!-- Add more sections as needed -->
+                    <li><a href="{{url('customer-agreement')}}#intro">Introduction</a></li>
+                    <li><a href="{{url('customer-agreement')}}#term">Terms & Condition</a></li>
+                    <li><a href="{{url('customer-agreement')}}#trading">Online Trading</a></li>
+               
                 </ul>
             </div>
         </div>

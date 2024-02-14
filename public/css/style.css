@@ -8120,6 +8120,7 @@ ul.uk-nav-sub {
 
 .uk-text-justify {
   text-align: justify !important;
+
 }
 
 /* Phone landscape and bigger */
@@ -8495,6 +8496,58 @@ iframe[data-uk-cover] {
   background-position: 50% 100%;
 }
 
+
+.uk-background-bottom-center1 {
+  background-position: 90% 100%;
+}
+
+.text-copytrade{
+  color: #ffffff;
+  background-color:  rgba(2, 40, 89, 0.301);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.justified-text1 {
+  text-align: justify;
+  word-spacing: 1.1px; /* Adjust this value as needed */
+  letter-spacing: -1.1px; /* Adjust this value as needed */
+  hyphens: auto;
+}
+.justified-text2 {
+  text-align: justify;
+  word-spacing: 1.1px; /* Adjust this value as needed */
+  letter-spacing: -1.1px; /* Adjust this value as needed */
+  hyphens: auto;
+}
+.justified-text3 {
+  text-align: justify;
+  word-spacing: 1.1px; /* Adjust this value as needed */
+  letter-spacing: -1.1px; /* Adjust this value as needed */
+  hyphens: auto;
+}
+
+@media (max-width: 1128px) and (min-width:1118px) {
+  .justified-text3 {
+    text-align: justify;
+    word-spacing: 0.099px; /* Adjust this value as needed */
+    letter-spacing: -1.1px; /* Adjust this value as needed */
+    hyphens: auto;
+  }
+}
+@media (max-width: 1117px) and (min-width:960px) {
+  .justified-text3 {
+    text-align: justify;
+    word-spacing: 0.099px; /* Adjust this value as needed */
+    letter-spacing: -1.1px; /* Adjust this value as needed */
+    hyphens: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .hide-background-image {
+    background-image: none !important;
+  }
+}
 .uk-background-bottom-right {
   background-position: 100% 100%;
 }
@@ -24368,6 +24421,10 @@ footer .social-media-list div a .fab:hover {
 /* Styles for small screens (e.g., mobile devices) */
 @media screen and (max-width: 768px) {
   .uk-section.uk-section-secondary.uk-padding-large.uk-background-cover.uk-background-bottom-center.in-padding-large-vertical\@s.in-profit-3 {
-      background-position-x: calc(60% -  -196px); /* Adjust the value as needed */
+      background-position-x: calc(60% -  -379px); /* Adjust the value as needed */
   }
+}
+.paddingbox{
+  padding-left: 5px;
+  padding-right: 5px;
 }

@@ -3,13 +3,15 @@
 @section('content')
 
 <!-------------------Copy trading description-------------------->
-<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover uk-background-bottom-center in-padding-large-vertical@s in-profit-3" style="background-image: url('{{ asset('img/copytrading-02.png') }}');" data-uk-img>
+<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover hide-background-image uk-background-bottom-center1 in-padding-large-vertical@s in-profit-3" style="background-image: url('{{ asset('img/copytrading-01.png') }}');" data-uk-img>
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-grid-large" data-uk-grid>
             <div class="uk-width-3-5@m">
                 <h2>@lang('messages.copytrading_title')</h2>
-                <p class="uk-text-justify uk-text-default uk-text-white">@lang('messages.copytrading_caption')</p>
-                <p class="uk-text-justify uk-text-default uk-text-white">@lang('messages.copytrading_caption1')</p>
+                <p class="uk-text-justify uk-text-default uk-text-white uk-visible@m">@lang('messages.copytrading_caption')</p>
+                <p class="uk-text-justify uk-text-default uk-text-white uk-visible@m">@lang('messages.copytrading_caption1')</p>
+                <p class="uk-text-justify uk-text-default text-copytrade uk-hidden@m">@lang('messages.copytrading_caption')</p>
+                <p class="uk-text-justify uk-text-default text-copytrade uk-hidden@m">@lang('messages.copytrading_caption1')</p>
             </div>
         </div>
     </div>

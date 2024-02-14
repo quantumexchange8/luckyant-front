@@ -46,7 +46,7 @@
                               
                                 <div class="uk-card-body toggle-text"  id="collection"> 
                                     <h3>
-                                        <a href="blog/thinking-of-going-vegan-what-you-need-to-know-first.html" class="link-primary text-decoration-none">Collection of Personal Information</a>
+                                        <a href="#" class="link-primary text-decoration-none">Collection of Personal Information</a>
                                     </h3>
                                     <p class="uk-text-justify">We obtain your personal information directly from you or indirectly through your association with us. Lucky Ant utilizes this information to verify your identity, establish your trading account, assign an account number and a secure password, monitor your account activity, and provide you with relevant account updates, among other purposes. Additionally, this information aids us in refining our services, customizing your browsing experience, and informing you about potential products, services, or promotions tailored to your interests.</p>
                                     <p class="hidden  uk-text-justify">
@@ -71,7 +71,7 @@
                               
                                 <div class="uk-card-body toggle-text"  id="cookies">
                                     <h3>
-                                        <a href="blog/thinking-of-going-vegan-what-you-need-to-know-first.html" class="link-primary text-decoration-none">Cookies</a>
+                                        <a href="#" class="link-primary text-decoration-none">Cookies</a>
                                     </h3>
                                     <p class="uk-text-justify">We use cookies and web beacons (also known as action tags or single-pixel gifs), and other technologies (collectively, "cookies") to provide us with data we can use 
                                         to improve your experience and to know you better. Cookies are small text files sent from Web servers that may be stored on your computer. Cookies enable us to capture how you arrived at 
@@ -99,7 +99,7 @@
                               
                                 <div class="uk-card-body toggle-text" id="disclosure">
                                     <h3>
-                                        <a href="blog/thinking-of-going-vegan-what-you-need-to-know-first.html" class="link-primary text-decoration-none">Disclosure of Personal Information to GAIN Capital Affiliates and Non-affiliated Third Parties
+                                        <a href="#" class="link-primary text-decoration-none">Disclosure of Personal Information to GAIN Capital Affiliates and Non-affiliated Third Parties
                                         </a>
                                     </h3>
                                     <p class="uk-text-justify">Lucky Ant is committed to safeguarding your personal information. We do not sell, license, lease, or otherwise disclose your personal information to any affiliate or third party, except as outlined below.

@@ -53,13 +53,13 @@
             <div class="uk-card uk-card-default uk-card-body">
                 <h5 class="uk-heading-bullet uk-text-uppercase uk-margin-remove-bottom">Content </h5>
                 <ul class="uk-list">
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#leverage">Leverage</a></li>
-                    <li><a href="#margins">Margins & Trading</a></li>
-                    <li><a href="#volatility">Volatility</a></li>
-                    <li><a href="#liquidity">Liquidity</a></li>
-                    <li><a href="#exchange">Dealing Off Exchange</a></li>
-                    <li><a href="#risk">Risk Associated</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#intro">Introduction</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#leverage">Leverage</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#margins">Margins & Trading</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#volatility">Volatility</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#liquidity">Liquidity</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#exchange">Dealing Off Exchange</a></li>
+                    <li><a href="{{url('disclosure-risk-warning')}}#risk">Risk Associated</a></li>
                     <!-- Add more sections as needed -->
                 </ul>
             </div>
@@ -180,7 +180,7 @@
     </div>
 </div>
 <div class="uk-section">
-    <div class="uk-container">
+    <div class="uk-container uk-padding">
         <div class="uk-grid uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-1-1@m" id="risk">
                 <h2>Risks Associated with Financial Instruments</h2>
