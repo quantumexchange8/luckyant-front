@@ -167,7 +167,9 @@
             <div class="uk-width-1-1 uk-width-5-6@m">
             <h2 class="uk-margin-small-top uk-text-center uk-text-darkblue uk-margin-medium-bottom">@lang('messages.choose_way')</h2>
             <p class="uk-text-lead uk-text-blue uk-margin-remove-bottom uk-text-center in-offset-top-10">@lang('messages.successful_follower') </p>
-            <p class="uk-text-default uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top uk-text-grey uk-text-center">@lang('messages.copytrades_desc')
+            <p class="uk-text-default uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top uk-text-grey uk-text-justify uk-visible@m">@lang('messages.copytrades_desc')
+            </p>
+            <p class="uk-text-default uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top uk-text-grey uk-text-justify uk-hidden@m textspace">@lang('messages.copytrades_desc')
             </p>
             <p class="uk-text-lead uk-text-blue uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top">@lang('messages.steps_copying') </p>
             <p class="uk-text-meta uk-text-grey uk-margin-remove-bottom in-offset-top-10 uk-margin-top uk-text-center">@lang('messages.how_copytrades') </p>
@@ -201,7 +203,9 @@
             <div class="uk-width-1-1 uk-width-5-6@m">
  
             <p class="uk-text-lead uk-text-blue uk-margin-remove-bottom uk-text-center in-offset-top10">@lang('messages.outstanding_provider') </p>
-            <p class="uk-text-default uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top uk-text-grey">@lang('messages.share_strategy_desc') 
+            <p class="uk-text-default uk-margin-remove-bottom uk-text-justify in-offset-top-10 uk-margin-top uk-text-grey uk-visible@m">@lang('messages.share_strategy_desc') 
+            </p>
+            <p class="uk-text-default uk-margin-remove-bottom uk-text-justify in-offset-top-10 uk-margin-top uk-text-grey uk-hidden@m textspace">@lang('messages.share_strategy_desc') 
             </p>
             <p class="uk-text-lead uk-text-blue uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top">@lang('messages.step_sharestrategy') </p>
             <p class="uk-text-meta uk-text-grey uk-margin-remove-bottom in-offset-top-10 uk-margin-top uk-text-center">@lang('messages.how_sharing')</p>
