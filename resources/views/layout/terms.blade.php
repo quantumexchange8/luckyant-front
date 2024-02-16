@@ -39,7 +39,7 @@
     
                   <div>
                     <div class="in-icon-wrap circle primary-color">
-                      <i class="fas fa-globe fa-lg"></i>
+                      <i class="fa-solid fa-triangle-exclamation"></i>
                     </div>
                       <h3 class="uk-margin-top">@lang('messages.disclosure_riskwarning')</h3>
                       <p class="uk-text-justify">@lang('messages.disclosure_riskwarning_caption')</p>
