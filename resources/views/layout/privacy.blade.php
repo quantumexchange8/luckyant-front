@@ -1,7 +1,7 @@
 @extends('master.master')
 @section('content')
 
-<div class="uk-section  uk-background-cover"  style="background-image: url({{asset('img/blockit/bg-01.png')}});">
+<div class="uk-section  uk-background-cover"  style="background-image: url('../img/blockit/bg-01.png');">
     <div class="uk-container ">
         <div class="uk-grid">
             <div class="uk-width-1-1" >
@@ -201,14 +201,14 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <div class="uk-card uk-card-primary uk-box-shadow-large uk-border-rounded uk-background-cover" style="background-image: url({{asset('img/blockit/in-card-background-03.png')}});">
+                <div class="uk-card uk-card-primary uk-box-shadow-large uk-border-rounded uk-background-cover" style="background-image: url('../img/blockit/in-card-background-03.png');">
                     <div class="uk-card-body">
                         <div class="uk-grid uk-flex-middle" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-expand@m">
                                 <h2 class="uk-text-blue">Open Your Account Now!</h2>
                             </div>
                             <div class="uk-width-auto">
-                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="{{}}">Open Real Account</a>
+                                <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 uk-margin-right" href="#">Open Real Account</a>
                                 <a class="uk-button uk-button-primary uk-border-rounded uk-margin-top10 " href="#">Open Demo Account</a>
                             </div>
                         </div>

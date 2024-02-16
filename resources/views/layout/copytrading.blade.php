@@ -3,15 +3,15 @@
 @section('content')
 
 <!-------------------Copy trading description-------------------->
-<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover hide-background-image uk-background-bottom-center1 in-padding-large-vertical@s in-profit-3" style="background-image: url('{{ asset('img/copytrading-01.png') }}');" data-uk-img>
+<div class="uk-section uk-section-secondary uk-padding-large uk-background-cover hide-background-image uk-background-bottom-center1 in-padding-large-vertical@s in-profit-3" style="background-image: url('../img/copytrading-01.png');" data-uk-img>
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-grid-large" data-uk-grid>
             <div class="uk-width-3-5@m">
                 <h2>@lang('messages.copytrading_title')</h2>
                 <p class="uk-text-justify uk-text-default uk-text-white uk-visible@m">@lang('messages.copytrading_caption')</p>
                 <p class="uk-text-justify uk-text-default uk-text-white uk-visible@m">@lang('messages.copytrading_caption1')</p>
-                <p class="uk-text-justify uk-text-default text-copytrade uk-hidden@m">@lang('messages.copytrading_caption')</p>
-                <p class="uk-text-justify uk-text-default text-copytrade uk-hidden@m">@lang('messages.copytrading_caption1')</p>
+                <p class="uk-text-justify text-copytrade uk-text-default uk-hidden@m">@lang('messages.copytrading_caption')</p>
+                <p class="uk-text-justify text-copytrade uk-text-default uk-hidden@m">@lang('messages.copytrading_caption1')</p>
             </div>
         </div>
     </div>
@@ -143,7 +143,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 in-card-16">
-                <div class="uk-card uk-card-default1 uk-box-shadow-medium uk-card-body uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
+                <div class="uk-card uk-card-default1 uk-box-shadow-medium uk-card-body uk-border-rounded background-cover" style="background-image: url('../img/in-profit-decor-3.svg'); background-size: cover; background-position: center;">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
                             <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
@@ -167,7 +167,7 @@
             <div class="uk-width-1-1 uk-width-5-6@m">
             <h2 class="uk-margin-small-top uk-text-center uk-text-darkblue uk-margin-medium-bottom">@lang('messages.choose_way')</h2>
             <p class="uk-text-lead uk-text-blue uk-margin-remove-bottom uk-text-center in-offset-top-10">@lang('messages.successful_follower') </p>
-            <p class="uk-text-default uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top uk-text-grey uk-text-justify">@lang('messages.copytrades_desc')
+            <p class="uk-text-default uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top uk-text-grey uk-text-center">@lang('messages.copytrades_desc')
             </p>
             <p class="uk-text-lead uk-text-blue uk-margin-remove-bottom uk-text-center in-offset-top-10 uk-margin-top">@lang('messages.steps_copying') </p>
             <p class="uk-text-meta uk-text-grey uk-margin-remove-bottom in-offset-top-10 uk-margin-top uk-text-center">@lang('messages.how_copytrades') </p>
@@ -208,7 +208,7 @@
                 <div class="uk-grid-large uk-child-width-1-4@m uk-text-center uk-margin-medium-top" data-uk-grid>
                     <div>
                         <span class="in-icon-wrap circle large uk-margin-auto">1</span>
-                        <p class="uk-text-darkblue uk-margin-top">@lang('messages.open_trading_account')</p>
+                        <p class="uk-text-darkblue uk-margin-top">@lang('messages.open_trading_account2')</p>
                         
                     </div>
                     <div>

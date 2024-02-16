@@ -7942,6 +7942,12 @@ ul.uk-nav-sub {
   padding-left: 5px;
   padding-right:5px;
 }
+.uk-text-darkblue2 {
+  color: #022859;
+  background-color:  rgba(255, 255, 255, 0.623);
+  padding-left: 5px;
+  padding-right:5px;
+}
 .uk-text-white{
   color:#FFFFFF;
 }
@@ -8503,50 +8509,39 @@ iframe[data-uk-cover] {
 
 .text-copytrade{
   color: #ffffff;
-  background-color:  rgba(2, 40, 89, 0.301);
+ 
   padding-left: 5px;
   padding-right: 5px;
-}
-.justified-text1 {
-  text-align: justify;
-  word-spacing: 1.1px; /* Adjust this value as needed */
-  letter-spacing: -1.1px; /* Adjust this value as needed */
-  hyphens: auto;
-}
-.justified-text2 {
-  text-align: justify;
-  word-spacing: 1.1px; /* Adjust this value as needed */
-  letter-spacing: -1.1px; /* Adjust this value as needed */
-  hyphens: auto;
-}
-.justified-text3 {
-  text-align: justify;
-  word-spacing: 1.1px; /* Adjust this value as needed */
-  letter-spacing: -1.1px; /* Adjust this value as needed */
-  hyphens: auto;
+
 }
 
-@media (max-width: 1128px) and (min-width:1118px) {
-  .justified-text3 {
-    text-align: justify;
-    word-spacing: 0.099px; /* Adjust this value as needed */
-    letter-spacing: -1.1px; /* Adjust this value as needed */
-    hyphens: auto;
-  }
+
+@media (max-width: 439px) {
+  .text-copytrade{
+
+    word-spacing: -1.4px;
+    letter-spacing: -0.3px;
+    line-height: 1.23 !important;
+ 
 }
-@media (max-width: 1117px) and (min-width:960px) {
-  .justified-text3 {
-    text-align: justify;
-    word-spacing: 0.099px; /* Adjust this value as needed */
-    letter-spacing: -1.1px; /* Adjust this value as needed */
-    hyphens: auto;
-  }
 }
 
-@media (max-width: 640px) {
+
+@media (max-width: 959px) {
   .hide-background-image {
     background-image: none !important;
   }
+}
+@media (min-width: 1125px) and (max-width:1411px) {
+  .hide-background-image {
+    background-position:80% 100%;
+  }
+}
+@media (min-width: 960px) and (max-width:1124px) {
+  .hide-background-image {
+    background-position:70% 100%;
+  }
+
 }
 .uk-background-bottom-right {
   background-position: 100% 100%;
@@ -12443,7 +12438,14 @@ iframe[data-uk-cover] {
   background-color: #FD6A4F;
   color: #fff;
 }
-
+.uk-icon-circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .in-pricing-5 .uk-card {
   overflow: hidden;
   border-radius: 6px;
@@ -23570,6 +23572,7 @@ readers do not read off random characters that represent icons */
   }
   .in-padding-vertical\@s {
     padding: 30px 0;
+ 
   }
   .in-padding-large-vertical\@s {
     padding: 60px 30px;
@@ -23778,6 +23781,7 @@ header .uk-navbar-dropdown li {
 }
 .in-slideshow .in-slideshow-button .uk-button {
   padding: 3px 30px;
+  margin:3px;
 }
 .in-slideshow .in-slideshow-feature {
   color: #3F3453;
@@ -23791,7 +23795,7 @@ header .uk-navbar-dropdown li {
 
 @media (min-width: 640px) and (max-width: 960px) {
   .in-slideshow .uk-overlay {
-    margin-top: 12%;
+    margin-top: 9%;
     text-align: center;
   }
   .in-slideshow .uk-position-center {
@@ -23802,10 +23806,25 @@ header .uk-navbar-dropdown li {
     height:auto;
   }
 }
-@media (max-width: 639px) {
+@media (max-width: 639px) and (min-width:478px){
   .in-slideshow .uk-overlay {
-    margin-top: -1px;
+    margin-top: 54px;
   }
+}
+@media (max-width: 365px) and (min-width:360px){
+  /* Hide the buttons */
+  .in-slideshow-button{
+margin-top: -15px !important;
+  }
+}
+@media (max-width: 860px) and (min-width:819px){
+  .in-slideshow .uk-slideshow-items{
+margin-top:-22px;
+}}
+  @media (max-width: 477px) and (min-width:360px){
+    .in-slideshow .uk-overlay {
+      margin-top: 1px;
+    }
   .in-slideshow .uk-position-center {
     left: 48%;
     opacity: 0.75;
@@ -24427,4 +24446,27 @@ footer .social-media-list div a .fab:hover {
 .paddingbox{
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.justify-text{
+  text-align: justify;
+  word-spacing:-1.8px;
+}
+
+.justify-text1{
+  text-align: justify;
+  word-spacing:-4.5px;
+}
+.uk-flex-col{
+  display:flex;
+  align-items: center;
+}
+
+.textspace{
+  word-spacing: -1.1px;
+  letter-spacing: -0.6px;
+}
+.textspace1{
+  word-spacing: -1.1px;
+  letter-spacing: -0.3px;
 }

@@ -21,7 +21,8 @@
                 </div>
                 <hr class="uk-margin-medium">
                 <h1 class="uk-margin-small-top uk-text-center">@lang('messages.contact_us')</h1>
-                <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-justify uk-text-default">@lang('messages.contact_caption')</p>
+               <p class="uk-margin-remove-bottom uk-text-muted uk-text-center uk-text-default uk-visible@m">@lang('messages.contact_caption')</p>
+               <p class="uk-margin-remove-bottom uk-text-muted uk-text-justify uk-text-default uk-hidden@m">@lang('messages.contact_caption')</p>
                 {{-- <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="{{ route('contact.store') }}" method="post"> --}}
                 <form id="contact-form" class="uk-form uk-grid-small uk-margin-medium-top" data-uk-grid="" action="{{ route('contact.submit') }}" method="post">
                     @csrf

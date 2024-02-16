@@ -3,31 +3,6 @@
 
 @section('content')
 <main>
-{{--
-    <div class="uk-container">
-        <div class="uk-grid" data-uk-grid>
-            <div class="uk-width-1-1 uk-width-1-2@m">
-                <div class="uk-overlay">
-                    <h1>Leading the digital era of financial revolution, <span class="in-highlight">pioneering new attempts</span> to empower the future of the financial industry.</h1>
-                    <p class="uk-text-meta">Partner with the world's leading online brokers and choose Lucky Ant Trading as your ideal companion. We are committed to providing fast, competitively priced global market trading, coupled with excellent customer service, to create an unparalleled trading environment for you.</p>
-                    <!-- For Medium and Larger Screens -->
-                    <div class="in-slideshow-button uk-visible@m">
-                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open Real Account</a>
-                        <a href="#" class="uk-button uk-button-default uk-border-rounded uk-margin-small-left">Open Demo Account</a>
-                    </div>
-                    <!-- For Smaller Screens (Mobile) -->
-                    <div class="in-slideshow-button uk-hidden@m uk-flex uk-flex-column uk-margin-top">
-                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">Open Real Account</a>
-                        <a href="#" class="uk-button uk-button-default uk-border-rounded uk-margin-small-top">Open Demo Account</a>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-width-1-1 uk-width-1-2@m uk-flex uk-flex-center uk-margin-top">
-                <img class="uk-animation-slide-top-small" src="img/user/in-slideshow-1.png" data-src="img/user/in-slideshow-1.png" alt="slideshow-image" width="862" height="540" data-uk-img>
-            </div>
-        </div>
-    </div>
---}}
 
 
 <!-----------------------Main Header------------------------------->
@@ -40,19 +15,19 @@
                         <div class="uk-grid" data-uk-grid>
                             <div class="uk-width-1-1 uk-width-3-5@l uk-width-4-5@m">
                                 <div class="uk-overlay">
-                                    <h1 class="uk-text-darkblue1 uk-hidden@m">@lang('messages.leading_digital')</h1>
+                                    <h1 class="uk-text-darkblue2 uk-hidden@m">@lang('messages.leading_digital')</h1>
                                     <h1 class="uk-visible@m">@lang('messages.leading_digital')</h1>
                                     <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible@m">@lang('messages.leading_description')</p>
-                                    <p class="uk-text-darkblue1 uk-text-meta1 uk-text-justify uk-hidden@m">@lang('messages.leading_description')</p>
+                                    <p class="uk-text-darkblue2 uk-text-meta1 uk-text-justify uk-hidden@m">@lang('messages.leading_description')</p>
                                     <div class="in-slideshow-button uk-margin-top">
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
-                                        <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">@lang('messages.demo_account')</a>
+                                        <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
                                     </div>
                                 
                                 </div>
                             </div>
                             <div class="uk-position-center">
-                                <img class="uk-animation-slide-top-small" src="{{asset('img/in-slideshow-image-5-01.png')}}" alt="slideshow-image" width="862" height="540" data-uk-img>
+                                <img class="uk-animation-slide-top-small " src="{{asset('img/in-slideshow-image-5-01.png')}}" alt="slideshow-image" width="862" height="540" data-uk-img>
                             </div>
                         </div>
                     </div>
@@ -68,9 +43,9 @@
                                     <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-visible@m">@lang('messages.oneclick_desc')</p>
                                     <p class="uk-text-darkblue1 uk-text-meta1 uk-visible uk-text-justify uk-hidden@m">@lang('messages.oneclick_desc')</p>
                 
-                                    <div class="in-slideshow-button">
+                                    <div class="in-slideshow-button uk-width-1-1@s">
                                         <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account') </a>
-                                        <a href="#" class="uk-button uk-button-first uk-border-rounded uk-visible">@lang('messages.demo_account')</a>
+                                        <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +72,7 @@
             <div class="uk-container">
                 <div class="uk-grid-divider" data-uk-grid>
                     <div class="uk-width-1-1@m">
-                        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
+                        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center uk-margin-top" data-uk-grid>
                             <div>
                                 <div class="in-icon-wrap circle uk-box-shadow-small uk-margin-auto">
                                     <i class="fas fa-drafting-compass"></i>
@@ -133,9 +108,9 @@
 
 <!-----------------------Preferred Partner------------------------------->
 
-<div class="uk-section uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-offset-top-40 in-profit-14" style="background-image: url('{{ asset('img/in-section-profit-14.jpg') }}');">
+<div class="uk-section uk-padding-large uk-background-contain uk-background-bottom-center in-padding-large-vertical@s in-offset-top-40 in-profit-14" style="background-image: url('../img/in-section-profit-14.jpg');">
     <div class="uk-container uk-margin-bottom">
-        <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
+        <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-text-center uk-margin-top10" data-uk-grid>
             <div class="uk-width-1-1">
                 <h2>@lang('messages.preferred_partner')</h2>
                 <p class="uk-text-grey">@lang('messages.preferred_caption')</p>
@@ -163,7 +138,7 @@
 <!-----------------------End of Preferred Partner------------------------>
 
 <!----------------------Download apps-------------------------------------->
-<div class="uk-section uk-padding-large in-padding-vertical@s in-profit-12">
+<div class="uk-section in-padding-vertical@s in-profit-12">
     <div class="uk-container">
         <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-1-2@m uk-text-center">
@@ -319,7 +294,7 @@
                     </div>
                 </div>  
             </div>
-            <div class="uk-width-1-3@m uk-width-1-1@s uk-margin-remove-bottom" >
+            <div class="uk-width-1-2@m uk-width-1-1@s uk-margin-remove-bottom" >
                 <h2>@lang('messages.metatrader_title')</h2>
                 <p class="uk-text-justify uk-text-meta uk-text-grey">@lang('messages.metatrader_caption')
                 </p>
@@ -336,7 +311,6 @@
             </div>
         </div>
     </div>
- 
 </div>
 <!----------------------End of Download apps------------------------------->
 <div class="uk-section">
@@ -348,10 +322,9 @@
         </div>
         <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
             <div class="uk-width-1-2@s uk-width-1-3@m">
-                <img src="{{asset('img/in-profit-icon-5.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
+                <img src="{{asset('img/in-profit-icon-5.svg')}}" alt="profit-icon" width="86" height="86">
                 <h4 class="uk-heading-bullet uk-margin-top uk-text-blue ">@lang('messages.swift_execution')</h4>
-                <p class="uk-text-grey uk-text-justify">@lang('messages.swiftexecution_caption')
-                </p>
+                <p class="uk-text-grey uk-text-justify">@lang('messages.swiftexecution_caption')</p>
             </div>
             <div class="uk-width-1-2@s uk-width-1-3@m">
                 <img src="{{asset('img/in-profit-icon-6.svg')}}" alt="profit-icon" width="86" height="86" data-uk-img>
@@ -387,7 +360,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1 in-card-16">
-                <div class="uk-card uk-card-default1 uk-card-body uk-box-shadow-medium uk-border-rounded background-cover" style="background-image: url('{{ asset('img/in-profit-decor-3.svg') }}'); background-size: cover; background-position: center;">
+                <div class="uk-card uk-card-default1 uk-card-body uk-box-shadow-medium uk-border-rounded background-cover" style="background-image: url('../img/in-profit-decor-3.svg'); background-size: cover; background-position: center;">
                     <div class="uk-grid uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-1 uk-width-expand@m">
                             <h3 class="uk-text-blue">@lang('messages.turn_your_dream')</h3>
