@@ -1,5 +1,5 @@
 @extends('master.master')
-
+@section('title', __('messages.copy_trading'))
 @section('content')
 
 <!-------------------Copy trading description-------------------->

@@ -15,6 +15,9 @@
     const HomepageApp = {
         //----------- 1. Slideshow -----------
         theme_slideshow: function() {
+       
+        
+            // Initialize slideshow with dynamic minHeight and maxHeight values
             UIkit.slideshow('.in-slideshow', {
                 autoplay: true,
                 autoplayInterval: 8000,

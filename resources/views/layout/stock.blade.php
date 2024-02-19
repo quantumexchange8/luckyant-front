@@ -1,5 +1,5 @@
 @extends('master.master')
-
+@section('title', __('messages.stock'))
 @section('content')
 <!---------------Title Header-------------------------->
 <div class="uk-section  uk-background-cover"  style="background-image: url('../img/blockit/bg-01.png');">

@@ -5,10 +5,9 @@
     <!-- Basic Page Needs -->
     <meta charset="UTF-8">
 
-    <meta name="author" content="themsflat.com">
-
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>@yield('title') | Lucky Ant Trading</title>
     <link rel="preload" href="{{asset('fonts/fa-brands-400.woff2')}}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{asset('fonts/fa-solid-900.woff2')}}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{asset('fonts/montserrat-v14-latin-600.woff2')}}" as="font" type="font/woff2" crossorigin>
@@ -35,10 +34,11 @@
         };
     </script>
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('img/logo/Logo-only.png')}}" type="image/x-icon">
     <!-- touch icon -->
-    <link rel="apple-touch-icon-precomposed" href="{{asset('img/apple-touch-icon.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('img/logo/Logo-only.png')}}">
 
+ 
 </head>
 <body>
 

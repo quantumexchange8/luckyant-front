@@ -2480,6 +2480,7 @@ select.uk-form-width-xsmall {
     padding-bottom: 45px;
   }
 }
+
 /*
  * Remove margin from the last-child
  */
@@ -23795,7 +23796,7 @@ header .uk-navbar-dropdown li {
 
 @media (min-width: 640px) and (max-width: 960px) {
   .in-slideshow .uk-overlay {
-    margin-top: 9%;
+    margin-top: 5%;
     text-align: center;
   }
   .in-slideshow .uk-position-center {
@@ -23823,17 +23824,23 @@ margin-top:-22px;
 }}
   @media (max-width: 477px) and (min-width:360px){
     .in-slideshow .uk-overlay {
-      margin-top: 1px;
+      margin-top: -11px;
     }
+    
   .in-slideshow .uk-position-center {
     left: 48%;
     opacity: 0.75;
   }
   .in-slideshow .uk-position-center img {
-    height: 497px;
+    height: 471px; /*497*/
   }
   .in-slideshow .in-highlight {
     display: inline-block;
+  }
+}
+@media (max-width: 280px) and (min-width:360px){
+  .in-slideshow .uk-overlay {
+    margin-top: -1px;
   }
 }
 .in-profit-breadcrumb .uk-breadcrumb {
@@ -24469,4 +24476,18 @@ footer .social-media-list div a .fab:hover {
 .textspace1{
   word-spacing: -1.1px;
   letter-spacing: -0.3px;
+}
+
+@media (max-width: 359px) {
+  .hide-button {
+    display: none;
+  }
+}
+@media (max-width: 359px) {
+  .uk-position-center {
+      /* Adjust the positioning properties as needed */
+    
+      --uk-position-translate-x: -60%;
+      --uk-position-translate-y: -27%;
+  }
 }

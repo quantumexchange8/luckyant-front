@@ -1,5 +1,5 @@
 @extends('master.master')
-
+@section('title', __('messages.cfd'))
 @section('content')
 
 <!---------------Title Header-------------------------->

@@ -1,4 +1,5 @@
 @extends('master.master')
+@section('title', 'Copy Trade Policy')
 @section('content')
 
 <div class="uk-section  uk-background-cover"  style="background-image: url('../img/blockit/bg-01.png');">

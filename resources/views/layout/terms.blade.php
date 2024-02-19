@@ -1,4 +1,5 @@
 @extends('master.master')
+@section('title', __('messages.terms_policies'))
 @section('content')
 <main>
 

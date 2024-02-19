@@ -1,4 +1,5 @@
 @extends('master.master')
+@section('title', __('messages.contact_us'))
 @section('content')
 
 <div class="uk-section">

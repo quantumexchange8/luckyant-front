@@ -1,4 +1,5 @@
 @extends('master.master')
+@section('title', 'Disclosure & Risk Warning')
 @section('content')
 <div class="uk-section  uk-background-cover"  style="background-image: url('../img/blockit/bg-01.png');">
     <div class="uk-container ">

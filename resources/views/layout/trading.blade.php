@@ -1,4 +1,5 @@
 @extends('master.master')
+@section('title', __('messages.trading_platform'))
 @section('content')
 
 <!----Description------------------>

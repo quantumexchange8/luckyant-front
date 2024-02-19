@@ -1,5 +1,5 @@
 @extends('master.master')
-
+@section('title', __('messages.about_us'))
 @section('content')
 
 

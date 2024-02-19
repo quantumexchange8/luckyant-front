@@ -1,68 +1,135 @@
 @extends('master.master')
 
-
+@section('title',__('messages.home') )
 @section('content')
 <main>
 
 
 <!-----------------------Main Header------------------------------->
-<div class="uk-section uk-padding-remove-vertical ">
+
+<div class="uk-section uk-padding-remove-vertical">
     <div class="in-slideshow uk-visible-toggle" data-uk-slideshow>
-            <ul class="uk-slideshow-items">
-              
-                <li>
-                    <div class="uk-container">
-                        <div class="uk-grid" data-uk-grid>
-                            <div class="uk-width-1-1 uk-width-3-5@l uk-width-4-5@m">
-                                <div class="uk-overlay">
-                                    <h1 class="uk-text-darkblue2 uk-hidden@m">@lang('messages.leading_digital')</h1>
-                                    <h1 class="uk-visible@m">@lang('messages.leading_digital')</h1>
-                                    <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible@m">@lang('messages.leading_description')</p>
-                                    <p class="uk-text-darkblue2 uk-text-meta1 uk-text-justify uk-hidden@m">@lang('messages.leading_description')</p>
-                                    <div class="in-slideshow-button uk-margin-top">
-                                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
-                                        <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
-                                    </div>
-                                
+        <ul class="uk-slideshow-items">
+            <li>          
+                <div class="uk-container">
+                    <div class="uk-grid" data-uk-grid>
+                        @php
+                            $language = app()->getLocale();
+                            $ukWidthClass = ($language === 'cn') ? 'uk-width-3-5@m' : 'uk-width-4-5@m';
+                        @endphp
+                        <div class="{{ $ukWidthClass }}">
+                            <div class="uk-overlay">
+                                <h1 class="uk-text-darkblue">@lang('messages.leading_digital')</h1>
+                                <p class="uk-text-darkblue uk-text-meta1 uk-text-justify">@lang('messages.leading_description')</p>
+                                <div class="in-slideshow-button  {{ app()->getLocale() === 'en' ? 'hide-button' : '' }}">
+                                    <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
+                                    <a href="#" class="uk-button uk-button-first uk-border-rounded ">@lang('messages.demo_account')</a>
                                 </div>
                             </div>
-                            <div class="uk-position-center">
-                                <img class="uk-animation-slide-top-small " src="{{asset('img/in-slideshow-image-5-01.png')}}" alt="slideshow-image" width="862" height="540" data-uk-img>
-                            </div>
+                        </div>
+                        <div class="uk-position-center">
+                            <img class="uk-animation-slide-top-small" src="{{asset('img/bg3-03.png')}}" alt="slideshow-image" width="862" height="540" data-uk-img>
                         </div>
                     </div>
-                </li> 
-                <li>
-                    <div class="uk-container">
-                        <div class="uk-grid" data-uk-grid>
-                            <div class="uk-width-1-1 uk-width-3-5@m">
-                                <div class="uk-overlay">
-                                    <h1 class="uk-hidden@m uk-text-darkblue1">@lang('messages.one_click')</h1>
-                                    <h1 class="uk-visible@m">@lang('messages.one_click')</h1>
-                                    
-                                    <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-visible@m">@lang('messages.oneclick_desc')</p>
-                                    <p class="uk-text-darkblue1 uk-text-meta1 uk-visible uk-text-justify uk-hidden@m">@lang('messages.oneclick_desc')</p>
-                
-                                    <div class="in-slideshow-button uk-width-1-1@s">
-                                        <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account') </a>
-                                        <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
-                                    </div>
+                </div>
+            </li> 
+            <li>          
+                <div class="uk-container">
+                    <div class="uk-grid" data-uk-grid>
+                        @php
+                            $language = app()->getLocale();
+                            $ukWidthClass = ($language === 'cn') ? 'uk-width-3-5@m' : 'uk-width-4-5@m';
+                        @endphp
+                        <div class="{{ $ukWidthClass }}">
+                            <div class="uk-overlay">
+                                <h1>@lang('messages.one_click')</h1>
+                                <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify">@lang('messages.oneclick_desc')</p>
+                                <div class="in-slideshow-button  {{ app()->getLocale() === 'en' ? 'hide-button' : '' }}">
+                                    <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
+                                    <a href="#" class="uk-button uk-button-first uk-border-rounded ">@lang('messages.demo_account')</a>
                                 </div>
                             </div>
-                            <div class="uk-position-center">
-                                <img class="uk-animation-slide-top-small" src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
-                            </div>
+                        </div>
+                        <div class="uk-position-center">
+                            <img class="uk-animation-slide-top-small" src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
                         </div>
                     </div>
-                </li>
-                
-             
-            </ul>
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
-   
+                </div>
+            </li> 
+            <!-- Other li elements -->
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
     </div>
 </div>
+
+{{--
+<div class="uk-section uk-padding-remove-vertical ">
+        <div class="in-slideshow uk-visible-toggle" data-uk-slideshow>
+                <ul class="uk-slideshow-items">
+                
+                    <li>
+                        <div class="uk-container">
+                            <div class="uk-grid" data-uk-grid>
+                                <div class="uk-width-1-1 uk-width-3-5@l uk-width-4-5@m">
+                                    <div class="uk-overlay">
+                                        <h1 class="uk-text-darkblue uk-hidden@m">@lang('messages.leading_digital')</h1>
+                                        <h1 class="uk-visible@m">@lang('messages.leading_digital')</h1>
+                                        <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-visible@m">@lang('messages.leading_description')</p>
+                                        <div class="in-slideshow-button uk-margin-top uk-visible@m">
+                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
+                                            <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
+                                        </div>
+                                        <p class="uk-text-darkblue uk-text-meta1 uk-text-justify uk-hidden@m">@lang('messages.leading_description')</p>
+                                        <div class="in-slideshow-button uk-margin-top uk-width-1-1@s uk-hidden@m">
+                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
+                                            <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-position-center">
+                                    <img class="uk-animation-slide-top-small " src="{{asset('img/in-slideshow-image-5-01.png')}}" alt="slideshow-image" width="862" height="550" data-uk-img>
+                                </div>
+                            </div>
+                        </div>
+                    </li> 
+                    <li>
+                        <div class="uk-container">
+                            <div class="uk-grid" data-uk-grid>
+                                <div class="uk-width-1-1 uk-width-3-5@m">
+                                    <div class="uk-overlay">
+                                        <h1 class="uk-hidden@m uk-text-darkblue">@lang('messages.one_click')</h1>
+                                        <h1 class="uk-visible@m">@lang('messages.one_click')</h1>
+                                        
+                                        <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-visible@m">@lang('messages.oneclick_desc')</p>
+                                        <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify uk-hidden@m">@lang('messages.oneclick_desc')</p>
+                                        <div class="in-slideshow-button uk-margin-top uk-visible@m">
+                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account') </a>
+                                            <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
+                                        </div>
+                                        <div class="in-slideshow-button uk-margin-top uk-hidden@m uk-text-center uk-width-1-1@s">
+                                            <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account') </a>
+                                            <a href="#" class="uk-button uk-button-first uk-border-rounded">@lang('messages.demo_account')</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-position-center">
+                                    <img class="uk-animation-slide-top-small" src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
+    
+        </div>
+</div>
+--}}
+
+
 <!-----------------------End of Main Header----------------------->
 
 <!-----------------------4 tools------------------------------->
