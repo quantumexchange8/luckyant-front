@@ -219,7 +219,7 @@ return [
     'submit'=>'提交',
     'cfd'=>'差价合约',
     'overview'=>'概述',
-    'trading'=>'贸易',
+    'trading'=>'交易',
     'turn_your_dream'=>' 将您的梦想变成现实 - 今天就联系我们！',
     'open_your_account'=>'立即开设您的账户！',
     'forex_crossrates'=>' 外汇交叉汇率',
