@@ -33,14 +33,12 @@
                     </div>
                 </div>
             </li> 
-            <li>          
+            <li>
+
                 <div class="uk-container">
                     <div class="uk-grid" data-uk-grid>
-                        @php
-                            $language = app()->getLocale();
-                            $ukWidthClass = ($language === 'cn') ? 'uk-width-3-5@m' : 'uk-width-4-5@m';
-                        @endphp
-                        <div class="{{ $ukWidthClass }}">
+                  
+                        <div class="uk-width-3-5@m">
                             <div class="uk-overlay">
                                 <h1>@lang('messages.one_click')</h1>
                                 <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify">@lang('messages.oneclick_desc')</p>
@@ -51,12 +49,12 @@
                             </div>
                         </div>
                         <div class="uk-position-center">
-                            <img class="uk-animation-slide-top-small" src="{{asset('img/image11-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
+                            <img class="uk-animation-slide-top-small  image-opacity" src="{{asset('img/image11-01-01.png')}}" alt="slideshow-image" width="500" height="550" data-uk-img>
                         </div>
                     </div>
                 </div>
-            </li> 
-            <!-- Other li elements -->
+              
+            </li>
         </ul>
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>

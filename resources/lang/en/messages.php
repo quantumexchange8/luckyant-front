@@ -102,7 +102,7 @@ return [
     'risk_warning2'=>'Prior to making any investment or trading decisions based on this advice, recipients are advised to meticulously assess its relevance to their unique financial circumstances. It is crucial to thoroughly review the product disclosure statements pertaining to relevant financial products, as provided by your investment broker. ',
     'risk_warning3'=>'Please be aware that over-the-counter derivatives carry substantial risks and may not be suitable for every investor. Potential losses could surpass the initial investment amount. Acquiring derivative products confers no rights, privileges, or obligations to the underlying financial assets.”',
     'terms_policies'=>'TERMS AND POLICIES ',
-    'luckyant_copyright'=>'© 2017 - 2024 Lucky Ant Corporation. All rights reserved. "FX Asia" and the Lucky Ant "Fx" series trademarks are owned by Lucky Ant Corporation. All other trademarks appearing on this website are the property of their respective owners.',
+    'luckyant_copyright'=>'© 2017 - 2024 Lucky Ant Trading. All rights reserved. The "Fx" series trademarks are owned by Lucky Ant Trading. All other trademarks appearing on this website are the property of their respective owners.',
     'trading_platform'=>'Trading Platform',
     'metatrader_tradingplatform'=>'MetaTrader 5 Trading Platform',
     'oneplatform_market'=>'One Platform, Multiple Markets',
