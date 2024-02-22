@@ -110,7 +110,7 @@
       
             <div>
                 <div class="uk-card uk-card-default uk-card-body uk-box-shadow-small uk-border-rounded uk-light in-card-darkblue">
-                    <div class="in-icon-wrap circle">
+                    <div class="in-icon-wrap circle uk-margin-medium-bottom">
                     <i class="fa fa-search fa-lg"></i>
                     </div>
                     <h4 class="uk-margin-top">
