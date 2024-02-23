@@ -40,7 +40,7 @@
                   
                         <div class="uk-width-3-5@m">
                             <div class="uk-overlay">
-                                <h1>@lang('messages.one_click')</h1>
+                                <h1 >@lang('messages.one_click')</h1>
                                 <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify">@lang('messages.oneclick_desc')</p>
                                 <div class="in-slideshow-button  {{ app()->getLocale() === 'en' ? 'hide-button' : '' }}">
                                     <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
@@ -203,10 +203,186 @@
 <!-----------------------End of Preferred Partner------------------------>
 
 <!----------------------Download apps-------------------------------------->
-<div class="uk-section in-padding-vertical@s in-profit-12">
+<div class="uk-section in-padding-vertical@s in-profit-12 uk-visible@m">
     <div class="uk-container">
-        <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
-            <div class="uk-width-1-2@m uk-text-center">
+            <div class="uk-grid-large uk-flex uk-flex-center" data-uk-grid>
+                <div class="uk-width-1-2@m uk-text-center">
+                    <div class="uk-card uk-card-default uk-border-rounded uk-box-shadow-medium">
+                        <div class="uk-card-body">
+                            <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="uk-text-red">@lang('messages.track_TradingView')</span></a></div>
+                                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+                                                {
+                                                    "colorTheme": "light",
+                                                    "dateRange": "12M",
+                                                    "showChart": true,
+                                                    "locale": "en",
+                                                    "width": "100%",
+                                                    "height": "500",
+                                                    "largeChartUrl": "",
+                                                    "isTransparent": false,
+                                                    "showSymbolLogo": true,
+                                                    "showFloatingTooltip": false,
+                                                    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+                                                    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+                                                    "gridLineColor": "rgba(240, 243, 250, 0)",
+                                                    "scaleFontColor": "rgba(106, 109, 120, 1)",
+                                                    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+                                                    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+                                                    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+                                                    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+                                                    "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+                                                    "tabs": [
+                                                    {
+                                                        "title": "Indices",
+                                                        "symbols": [
+                                                        {
+                                                            "s": "FOREXCOM:SPXUSD",
+                                                            "d": "S&P 500"
+                                                        },
+                                                        {
+                                                            "s": "FOREXCOM:NSXUSD",
+                                                            "d": "US 100"
+                                                        },
+                                                        {
+                                                            "s": "FOREXCOM:DJI",
+                                                            "d": "Dow 30"
+                                                        },
+                                                        {
+                                                            "s": "INDEX:NKY",
+                                                            "d": "Nikkei 225"
+                                                        },
+                                                        {
+                                                            "s": "INDEX:DEU40",
+                                                            "d": "DAX Index"
+                                                        },
+                                                        {
+                                                            "s": "FOREXCOM:UKXGBP",
+                                                            "d": "UK 100"
+                                                        }
+                                                        ],
+                                                        "originalTitle": "Indices"
+                                                    },
+                                                    {
+                                                        "title": "Futures",
+                                                        "symbols": [
+                                                        {
+                                                            "s": "CME_MINI:ES1!",
+                                                            "d": "S&P 500"
+                                                        },
+                                                        {
+                                                            "s": "CME:6E1!",
+                                                            "d": "Euro"
+                                                        },
+                                                        {
+                                                            "s": "COMEX:GC1!",
+                                                            "d": "Gold"
+                                                        },
+                                                        {
+                                                            "s": "NYMEX:CL1!",
+                                                            "d": "WTI Crude Oil"
+                                                        },
+                                                        {
+                                                            "s": "NYMEX:NG1!",
+                                                            "d": "Gas"
+                                                        },
+                                                        {
+                                                            "s": "CBOT:ZC1!",
+                                                            "d": "Corn"
+                                                        }
+                                                        ],
+                                                        "originalTitle": "Futures"
+                                                    },
+                                                    {
+                                                        "title": "Bonds",
+                                                        "symbols": [
+                                                        {
+                                                            "s": "CBOT:ZB1!",
+                                                            "d": "T-Bond"
+                                                        },
+                                                        {
+                                                            "s": "CBOT:UB1!",
+                                                            "d": "Ultra T-Bond"
+                                                        },
+                                                        {
+                                                            "s": "EUREX:FGBL1!",
+                                                            "d": "Euro Bund"
+                                                        },
+                                                        {
+                                                            "s": "EUREX:FBTP1!",
+                                                            "d": "Euro BTP"
+                                                        },
+                                                        {
+                                                            "s": "EUREX:FGBM1!",
+                                                            "d": "Euro BOBL"
+                                                        }
+                                                        ],
+                                                        "originalTitle": "Bonds"
+                                                    },
+                                                    {
+                                                        "title": "Forex",
+                                                        "symbols": [
+                                                        {
+                                                            "s": "FX:EURUSD",
+                                                            "d": "EUR to USD"
+                                                        },
+                                                        {
+                                                            "s": "FX:GBPUSD",
+                                                            "d": "GBP to USD"
+                                                        },
+                                                        {
+                                                            "s": "FX:USDJPY",
+                                                            "d": "USD to JPY"
+                                                        },
+                                                        {
+                                                            "s": "FX:USDCHF",
+                                                            "d": "USD to CHF"
+                                                        },
+                                                        {
+                                                            "s": "FX:AUDUSD",
+                                                            "d": "AUD to USD"
+                                                        },
+                                                        {
+                                                            "s": "FX:USDCAD",
+                                                            "d": "USD to CAD"
+                                                        }
+                                                        ],
+                                                        "originalTitle": "Forex"
+                                                    }
+                                                    ]
+                                                }
+                                            </script>
+                                </div>
+                            <!-- TradingView Widget END -->
+                        </div>
+                    </div>  
+                </div>
+                <div class="uk-width-1-2@m uk-width-1-1@s uk-margin-remove-bottom" >
+                    <h2>@lang('messages.metatrader_title')</h2>
+                    <p class="uk-text-justify uk-text-meta uk-text-grey">@lang('messages.metatrader_caption')
+                    </p>
+                    <div class="uk-flex" data-uk-margin>
+                        <a href="#" class="uk-button in-button-app uk-margin-small-right">
+                            <i class="fab fa-google-play fa-2x"></i>
+                            <span class="wrapper">@lang('messages.download') <br><span>@lang('messages.android')</span></span>
+                        </a>
+                        <a href="#" class="uk-button in-button-app">
+                            <i class="fa-brands fa-windows fa-2x"></i>
+                            <span class="wrapper">@lang('messages.download') <br><span>@lang('messages.desktop')</span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="uk-section uk-hidden@m">
+    <div class="uk-container ">
+        <div class="uk-grid-large" data-uk-grid>
+            <div class="uk-width-1-1@s uk-text-center">
                 <div class="uk-card uk-card-default uk-border-rounded uk-box-shadow-medium">
                     <div class="uk-card-body">
                         <!-- TradingView Widget BEGIN -->
@@ -359,11 +535,11 @@
                     </div>
                 </div>  
             </div>
-            <div class="uk-width-1-2@m uk-width-1-1@s uk-margin-remove-bottom" >
+            <div class="uk-width-1-1@s uk-text-center">
                 <h2>@lang('messages.metatrader_title')</h2>
                 <p class="uk-text-justify uk-text-meta uk-text-grey">@lang('messages.metatrader_caption')
                 </p>
-                <div class="uk-flex" data-uk-margin>
+                <div class="uk-flex">
                     <a href="#" class="uk-button in-button-app uk-margin-small-right">
                         <i class="fab fa-google-play fa-2x"></i>
                         <span class="wrapper">@lang('messages.download') <br><span>@lang('messages.android')</span></span>
@@ -373,11 +549,14 @@
                         <span class="wrapper">@lang('messages.download') <br><span>@lang('messages.desktop')</span></span>
                     </a>
                 </div>
+              
             </div>
         </div>
     </div>
 </div>
+
 <!----------------------End of Download apps------------------------------->
+
 <div class="uk-section">
     <div class="uk-container ">
         <div class="uk-grid" data-uk-grid>
