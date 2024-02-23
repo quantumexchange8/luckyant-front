@@ -33,8 +33,7 @@
       
         };
     </script>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="{{asset('img/Logo/logo-only.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
     <!-- touch icon -->
     <link rel="apple-touch-icon-precomposed" href="{{asset('img/Logo/logo-only.png')}}">
 
