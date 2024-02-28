@@ -35,11 +35,11 @@
                             <p class="uk-text-small uk-text-meta uk-text-red"><span class="uk-text-primary">*</span>@lang('messages.support_mobile')</p>
 
                 <div class="uk-flex" data-uk-margin>
-                    <a href="#" class="uk-button in-button-app uk-margin-small-right">
+                    <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader5&hl=en&referrer=ref_id%3D4852173143092083308%26hl%3Den%26utm_source%3Dwww.metatrader5.com%26utm_campaign%3Dinstall.metaquotes&pli=1" class="uk-button in-button-app uk-margin-small-right">
                         <i class="fab fa-google-play fa-2x"></i>
                         <span class="wrapper">@lang('messages.download')<br><span>@lang('messages.android')</span></span>
                     </a>
-                    <a href="#" class="uk-button in-button-app">
+                    <a href="https://download.metatrader.com/cdn/web/lucky.ant.trading/mt5/luckyanttrading5setup.exe" class="uk-button in-button-app">
                         <i class="fa-brands fa-windows fa-2x"></i>
                         <span class="wrapper">@lang('messages.download')<br><span>@lang('messages.desktop')</span></span>
                     </a>
