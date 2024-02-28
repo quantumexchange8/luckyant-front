@@ -78,9 +78,9 @@
             <div class="uk-width-1-1@m  uk-flex uk-flex-right@m custom-small-screen uk-margin-remove-top">
                 <!-- social media begin -->
                 <div class="uk-flex social-media-list">
-                            <div><a href="#" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
+                            <div><a href="https://www.facebook.com/profile.php?id=61556727627539&mibextid=YMEMSu" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
                             <div><a href="#" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
-                            <div><a href="#" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
+                            <div><a href="https://www.instagram.com/luckyantfx?igsh=aThnMGxpMjdicmx1&utm_source=qr" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
                             <div><a href="#" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
                 </div>
                 <!-- social media end -->
