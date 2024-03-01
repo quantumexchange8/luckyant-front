@@ -43,7 +43,7 @@
                                 <h1 >@lang('messages.one_click')</h1>
                                 <p class="uk-text-darkblue uk-text-meta1 uk-visible uk-text-justify">@lang('messages.oneclick_desc')</p>
                                 <div class="in-slideshow-button  {{ app()->getLocale() === 'en' ? 'hide-button' : '' }}">
-                                    <a href="#" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
+                                    <a href="{{ url('https://member.luckyantfxasia.com/register') }}" class="uk-button uk-button-primary uk-border-rounded">@lang('messages.real_account')</a>
                                     <a href="#" class="uk-button uk-button-first uk-border-rounded ">@lang('messages.demo_account')</a>
                                 </div>
                             </div>
