@@ -35,7 +35,7 @@
                 buttons: [
                     {
                         name: window.translations.login,
-                        url: 'signin.html',
+                        url: loginUrl,
                         type: 'primary',
                         icon: 'sign-in-alt'
                     },

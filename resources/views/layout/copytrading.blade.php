@@ -250,7 +250,7 @@
                     </p>
                     <p class="uk-text-default uk-text-red uk-margin-remove-top uk-visible">@lang('messages.create_account_now')
                     </p>
-                    <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-top10"  href="#">@lang('messages.real_account')</a>
+                    <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-top10"  href="{{ url('https://member.luckyantfxasia.com/register') }}">@lang('messages.real_account')</a>
                     <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-top10 " href="#">@lang('messages.demo_account')</a>
                 </div>
             </div>

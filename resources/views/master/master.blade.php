@@ -54,7 +54,10 @@
 <script src="{{asset('js/vendors/tradingview-widget.min.js')}}"></script>
 <script src="{{asset('js/utilities.min.js')}}"></script>
 <script src="{{asset('js/config-theme.js')}}"></script>
-
+<script>
+    var loginUrl = "{{ url('https://member.luckyantfxasia.com/login') }}";
+    theme_mobilenav(loginUrl);
+</script>
 @yield('script')
 @yield('scripts')
 @stack('addscripts') 
