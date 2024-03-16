@@ -79,9 +79,9 @@
                 <!-- social media begin -->
                 <div class="uk-flex social-media-list">
                             <div><a href="https://www.facebook.com/profile.php?id=61556727627539&mibextid=YMEMSu" class="color-facebook text-decoration-none"><i class="fab fa-facebook-square"></i> Facebook</a></div>
-                            <div><a href="#" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
+                            <div><a href="https://x.com/luckyantfx?s=21&t=8BuuVl1tsG5vZE8dbYeRyQ" class="color-twitter text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></div>
                             <div><a href="https://www.instagram.com/luckyantfx?igsh=aThnMGxpMjdicmx1&utm_source=qr" class="color-instagram text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></div>
-                            <div><a href="#" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
+                            <div><a href="https://www.youtube.com/channel/UC5z2xs8G7PNWgbvFaufKxqQ" class="color-youtube text-decoration-none"><i class="fab fa-youtube"></i> Youtube</a></div>
                 </div>
                 <!-- social media end -->
             </div>
