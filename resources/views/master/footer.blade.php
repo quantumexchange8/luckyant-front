@@ -26,9 +26,7 @@
                             <div> <a href="mailto:support@luckyantfxasia.com">support@luckyantfxasia.com</a> </div>
                         </li>
                         <li>
-                            <div><i class="fas fa-map-marker-alt"></i>@lang('messages.address') </div>
-                           
-                         
+                            <div><i class="fas fa-map-marker-alt uk-margin-small-right"></i>@lang('messages.address') </div>
                             <div>
                                 <ul class="footer">
                                     <li> 1312 17TH ST UNIT NUM 2955</li>
