@@ -11,17 +11,33 @@
                     <ul class="uk-list uk-link-text uk-margin-remove-top">
                         <li>
                             <div><i class="fa fa-registered uk-margin-small-right"></i>@lang('messages.registration_number') </div>
-                            <div> 31000262677236 </div>
-                            <div> 2024 - 00244 </div>
+                            <div>
+                               
+                                <ul class="footer">
+                                    <li>  31000262677236</li>
+                                    <li>  2024 - 00244</li>
+                                </ul>
+                              </div> 
+                                 
+                 
                         </li>
                         <li>
                             <div><i class="fas fa-envelope uk-margin-small-right"></i>@lang('messages.email'):  </div>
                             <div> <a href="mailto:support@luckyantfxasia.com">support@luckyantfxasia.com</a> </div>
                         </li>
                         <li>
-                            <div><i class="fas fa-map-marker-alt uk-margin-small-right"></i>@lang('messages.address') </div>
-                            <div>1312 17TH ST UNIT NUM 2955 </div>
-                            <div>TOP FLOOR RODNEY COURT BUILDING RODNEY BAY GROS ISLET SAINT LUCIA</div>
+                            <div><i class="fas fa-map-marker-alt"></i>@lang('messages.address') </div>
+                           
+                         
+                            <div>
+                                <ul class="footer">
+                                    <li> 1312 17TH ST UNIT NUM 2955</li>
+                                    <li>  TOP FLOOR RODNEY COURT BUILDING RODNEY BAY GROS ISLET SAINT LUCIA</li>
+                                </ul>
+                              </div> 
+                                 
+                                
+                            
                         </li>
                     </ul>
                 </div>
