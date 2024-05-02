@@ -6,14 +6,16 @@
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center in-contact-6">
             <div class="uk-width-4-5">
-                <iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.72069145314686!2d-104.99677136031374!3d39.75018334203433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78db3af48de9%3A0x39314ec455dc29fc!2sPostNet!5e0!3m2!1sen!2smy!4v1707819483877!5m2!1sen!2smy">
+                <iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d241.8836955118802!2d-60.95030132783676!3d14.068960535532007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c40429f1b550e29%3A0xe8a7853173584ff9!2sMassy%20Stores%20(Rodney%20Heights)!5e0!3m2!1sen!2sus!4v1714627280170!5m2!1sen!2sus">
                 </iframe>
             </div>
             <div class="uk-width-4-5@m">
                 <div class="uk-grid uk-child-width-1-2@m uk-margin-medium-top uk-text-center" data-uk-grid="">
                     <div>
                         <h5 class="uk-margin-remove-bottom">@lang('messages.address')</h5>
-                        <p class="uk-margin-small-top">1312 17TH ST UNIT NUM 2955</p>
+                        <p class="uk-margin-small-top">1312 17TH ST UNIT NUM 2955 </br>
+                    TOP FLOOR RODNEY COURT BUILDING RODNEY BAY GROS ISLET SAINT LUCIA
+                        </p>
                     </div>
                     <div>   
                         <h5 class="uk-margin-remove-bottom">@lang('messages.email'):</h5>

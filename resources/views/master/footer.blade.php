@@ -11,7 +11,8 @@
                     <ul class="uk-list uk-link-text uk-margin-remove-top">
                         <li>
                             <div><i class="fa fa-registered uk-margin-small-right"></i>@lang('messages.registration_number') </div>
-                            <div> <p>31000262677236</p> </div>
+                            <div> 31000262677236 </div>
+                            <div> 2024 - 00244 </div>
                         </li>
                         <li>
                             <div><i class="fas fa-envelope uk-margin-small-right"></i>@lang('messages.email'):  </div>
@@ -19,7 +20,8 @@
                         </li>
                         <li>
                             <div><i class="fas fa-map-marker-alt uk-margin-small-right"></i>@lang('messages.address') </div>
-                            <div> <p>1312 17TH ST UNIT NUM 2955</p> </div>
+                            <div>1312 17TH ST UNIT NUM 2955 </div>
+                            <div>TOP FLOOR RODNEY COURT BUILDING RODNEY BAY GROS ISLET SAINT LUCIA</div>
                         </li>
                     </ul>
                 </div>
