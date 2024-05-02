@@ -6,7 +6,7 @@
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center in-contact-6">
             <div class="uk-width-4-5">
-                <iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d241.8836955118802!2d-60.95030132783676!3d14.068960535532007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c40429f1b550e29%3A0xe8a7853173584ff9!2sMassy%20Stores%20(Rodney%20Heights)!5e0!3m2!1sen!2sus!4v1714627280170!5m2!1sen!2sus">
+                <iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4802.413919227997!2d-60.94689!3d14.06826!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c40429dac48b5c5%3A0x64831184265128e2!2sRodney%20Bay!5e1!3m2!1sen!2sus!4v1714628562840!5m2!1sen!2sus">
                 </iframe>
             </div>
             <div class="uk-width-4-5@m">
