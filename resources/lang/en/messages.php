@@ -238,5 +238,8 @@ return [
     'privacy_policy_caption'=>'Discover how we prioritize and protect your personal information by reading our privacy policy.',
     'disclosure_riskwarning_caption'=>'To learn more about important information and possible risks, browse our Disclosures and Risk Warning section.',
     'ct_terms_condition_caption'=>'For a thorough explanation of how our platform guarantees a safe and profitable trading experience, explore our Copy Trading Terms & Conditions.',
+    'pdf_name' => 'AML POLICY.pdf',
+    'anti_money_laundering' => 'AML Policy',
+    'aml_description' => 'To know more about AML Policy click the download and view our AML Policy',
 ];
 ?>

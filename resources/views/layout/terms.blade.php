@@ -58,9 +58,27 @@
                           <li><a class="uk-button uk-button-text uk-text-primary" href="{{route('copytradepolicy')}}"><i class="fa fa-file-text fa-lg uk-margin-small-right"></i>@lang('messages.ct_terms_condition')</a></li>
                       </ul>
                   </div>
-              </div>
+                </div>
               </li>
-        
+              <li class=" uk-margin-top20">
+                <div class="uk-grid-divider uk-child-width-1-2@m uk-child-width-1-2@s" data-uk-grid>
+    
+                  <div>
+                    <div class="in-icon-wrap circle primary-color">
+                      <i class="fa-regular fa-sack-xmark"></i>
+                    </div>
+                      <h3 class="uk-margin-top">@lang('messages.anti_money_laundering')</h3>
+                      <p class="uk-text-justify">@lang('messages.aml_description') </p>
+                      <ul class="uk-list uk-margin-top">
+                          <li>
+                            <a class="uk-button uk-button-text uk-text-primary" href="{{route('pdf')}}" target="_blank" download="AML_POLICY.pdf">
+                              <i class="fa fa-download fa-lg uk-margin-small-right"></i>@lang('messages.pdf_name')
+                            </a>
+                          </li>
+                      </ul>
+                  </div>
+                </div>
+              </li>
           </ul>
         </div>
     </div>

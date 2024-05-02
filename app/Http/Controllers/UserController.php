@@ -62,5 +62,19 @@ class UserController extends Controller
   public function customer(){
     return view('layout.customer');
   }
+
+  public function pdf()
+  {
+    $path = public_path('AML_POLICY.pdf');
+
+    if (file_exists($path)) {
+      $filename = 'AML_POLICY.pdf';
+
+      return response()->file($path, ['Content-Disposition' => 'inline; filename="' . $filename . '"']);
+    } else {
+        // File not found
+        abort(404);
+    }
+  }
 }
 

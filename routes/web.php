@@ -36,5 +36,5 @@ Route::get('copy-trading-terms-policy', [UserController::class, 'copytradepolicy
 Route::get('disclosure-risk-warning', [UserController::class, 'disclosure'])->name('disclosure');
 Route::post('contact', [ContactController::class, 'submitForm'])->name('contact.submit');
 Route::get('customer-agreement', [UserController::class, 'customer'])->name('customer');
-
+Route::get('aml-policy', [UserController::class, 'pdf'])->name('pdf');
 
